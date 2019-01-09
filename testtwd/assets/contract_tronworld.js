@@ -1,4 +1,4 @@
-var contractAddress = "TSq9NNq4tkS2mz5WKUWaz8HzKJRiViz45Q"; //1
+var contractAddress = "TL7UimLQ5xHyR1bZ1HiuoV3aFp69af1C3F"; //1
 var tronconquestContract;
 var userTokenBalance;
 var account;
@@ -98,11 +98,13 @@ function updateUserInformation() {
 				$(".country-"+countryId).find(".conquest-owner").html("You").css("color", "#4bc071");
 				$(".country-"+countryId).css("border", "1px #4bc071 solid");
 				$(".country-"+countryId).find(".owned").show();
+				$(".country-"+countryId).find(".country-flag").css("opacity", 1);
 			}
 			else {
 				$(".country-"+countryId).find(".conquest-owner").html(ownerAddress).css("color", "");
 				$(".country-"+countryId).css("border", "1px grey solid");
 				$(".country-"+countryId).find(".owned").hide();
+				$(".country-"+countryId).find(".country-flag").css("opacity", 0.1);
 			}
 		}).catch((err) => {
 			console.log(err);
