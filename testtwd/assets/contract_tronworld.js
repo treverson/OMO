@@ -1,4 +1,4 @@
-var contractAddress = "TL7UimLQ5xHyR1bZ1HiuoV3aFp69af1C3F"; //1
+var contractAddress = "TBeatTxD3wvXttpfdF1zX83vnGBXLN57KS"; //1
 var tronconquestContract;
 var userTokenBalance;
 var account;
