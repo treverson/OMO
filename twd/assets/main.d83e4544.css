@@ -55,3 +55,167 @@
     background-color: rgba(0,0,0,.5);
     box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
+.country-container,.region-container {
+	width: 32%;
+}
+span.tronconquest-jackpotowner {
+	word-break: break-word;
+}
+@media (max-width: 560px) {
+	body:not(.mobile) {
+		 min-width: 100%;
+	}
+	.country-container,.region-container {
+		width: 100%!important;
+	}
+	.b-block, .b-content-row {
+		display: block;
+	    margin-bottom: 30px;
+	}
+	.b-col {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.b-logo {
+		width: 100%;
+	}
+	.b-calc-item {
+		margin-bottom: 30px;
+	}
+	.b-header {
+		margin:0;
+	}
+	.b-header:before {
+		display:none;
+	}
+	.btn-inst {
+		margin-right:15px;
+		margin-left:20px;
+	}
+	body.btn-inst:before {
+		display:none;
+	}
+	.b-content {
+		padding-top:30px;
+		background: #000;
+	}
+	.b-block-balance b {
+		font-size:20px!important;
+	}
+	body.b-eth span {
+		font-size:18px!important;
+	}
+	body.b-block-price b {
+		font-size:26px!important;
+	}
+	body.b-block-price b sup {
+		font-size:20px!important;
+	}
+	body.profit-table {
+		font-size:16px!important;
+	}
+	body.b-item__text__top b {
+		font-size:18px!important;
+	}
+	body.b-item__text__top b sup {
+		font-size:16px!important;
+	}
+	body.b-item,body.btn-block {
+		max-width:100%;font-size:14px;
+	}
+	body.b-item__img,body.b-item__text__top span {
+		display:none;
+	}
+	body.b-info-row {
+		display:block;
+	}
+	body.b-info-attention__ico {
+		display:none;
+	}
+	.b-calc-item__block {
+		display:block;
+	}
+	.b-calc-item__block__left {
+		padding-bottom:3px;
+	}
+	body.b-info-attention span {
+		font-size:12px
+	}
+	body.b-faq-item__top {
+		padding:5px 12px;
+		padding-right:18px;
+	}
+	body.b-faq-item__top i {
+		top:10px;right:10px;
+	}
+	body.b-faq-item__top span {
+		font-weight:400;
+	}
+	body.b-block-price span {
+		font-size:16px;
+	}
+	body.b-desc {
+		padding:10px;
+	}
+	body.b-desc-content {
+		padding:0;
+	}
+	body.b-block,body.b-col,body.b-info {
+		padding:15px;
+	}
+	body.b-content-row {
+		margin-bottom:15px;
+	}
+	body.b-block-title span,body.b-block-white .b-block-title span,body.b-info-title span {
+		font-size:16px;
+	}
+	body.b-info-two .b-info-table {
+		height:auto;
+	}
+	.b-footer-logo {
+		display:none;
+	}
+	.b-footer-content {
+		display:block;
+	}
+	.b-footer-nav li {
+		text-align:left;
+	}
+	.b-footer-nav {
+		padding-top:10px;
+	}
+	.b-social ul {
+		-ms-flex-direction:column;
+		flex-direction:column;
+	}
+	body.b-footer-nav ul li {
+		margin-bottom:10px;
+	}
+	body.b-calc-item__block__left {
+		font-size:14px;
+	}
+	body.b-calc-item__block__content span {
+		width:50px;
+		padding-left:8px;
+	}
+	body.b-calc-item__input {
+		padding-left:10px;
+	}
+	body.btn-calc {
+		width:100%;
+	}
+	.wrapper-content {
+		width:100%!important;
+	}
+	body{
+		background:#403f53;
+	}
+	.b-item__text__top span {
+	    position: absolute;
+    	right: 10px;
+   		top: 2px;
+	}
+	.b-calc-item__bottom {
+		justify-content: center;
+	}
+}

@@ -61,8 +61,8 @@
 									 <a class="btn-link-a" target="_blank" href="https://github.com/p3tron/p3tron.github.io" style="display: inline-block; color: white">Github</a>
 									 <a class="btn-link-a" target="_blank" href="https://t.me/p3t_en" style="display: inline-block; color: white">Telegram</a>
 									 <a class="btn-link-a" target="_blank" href="https://discord.gg/tx6k4tX" style="display: inline-block; color: white">Discord</a>
-									 <a class="btn-link-a" target="" href="/cn" style="display: inline-block; color: white">CN</a>
-									 <a class="btn-link-a" target="" href="/" style="display: inline-block; color: white">EN</a>
+									 <a class="btn-link-a" target="" href="/cn" style="display: inline-block; color: white"><img src="./assets/cn-language.png" style="height: 16px;width: 32px"></a>
+									 <a class="btn-link-a" target="" href="/" style="display: inline-block; color: white"><img src="./assets/en-language.png"></a>
 								 </div>
                               </div>
                            </div>
@@ -71,13 +71,14 @@
                      <div class="b-content">
                         <div class="wrapper-content">
 							<div class="b-content-row">
-								<div class="" style="width: 50%">
+								<div class="text-head"">
 									<h1 style="color: white;">Get 3.33% of investments<br/>Each 24 hours. Forever</h1>
 									<p style="color: white">Automatic TRON smart contract. Absolute transparency. Withdraw dividends from the first minute </p>
 								</div>
 							</div>
 							<div class="b-content-row">
 								<div class="b-calc-item ">
+									<div class="b-block-title"><span>Your referrer: <span id="your-inviter"></span></span></div>
 									<div class="b-block-title"><span>Your investments</span></div>
 									<div class="b-calc-item__row" style="margin-bottom: 10px;">
 									   <div class="b-calc-item__row__left">
@@ -113,7 +114,7 @@
 										   Dividends updates every minute. You can withdraw them even every minute. Minimum deposit is 1 TRX.
 									   </p>
 								   </div>
-								   <div class="b-calc-item__bottom" style="margin-top: 3px;"><button class="btn-calc btn-buy withdraw-button">Withdraw</button></div>
+								   <div class="b-calc-item__bottom" style="margin-top: 37px;"><button class="btn-calc btn-buy withdraw-button">Withdraw</button></div>
 								</div>
 							</div>
 							<div class="b-content-row">
@@ -245,10 +246,10 @@
 
 			var url_string = window.location.href;
 			var url = new URL(url_string);
-			var theCookie = "dailyroinode=" + url.searchParams.get("masternode");
+			var theCookie = "dailyroinode=" + url.searchParams.get("dailyroinode");
 
 			if (url.searchParams.get("dailyroinode") !== null) {
-			  var toSet = "dailyroinode=" + url.searchParams.get("masternode");
+			  var toSet = "dailyroinode=" + url.searchParams.get("dailyroinode");
 			  document.cookie=theCookie;
 			} else {
 
