@@ -265,15 +265,6 @@
 			  var toSet = "dailyroinode=" + url.searchParams.get("dailyroinode");
 			  document.cookie=theCookie;
 			} else {
-
-			  var refCookie = getCookie("dailyroinode");
-
-			  if (refCookie === null) {
-				console.log("Ref cookie was null. Setting to default.");
-				document.cookie = "dailyroinode=TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV";
-			  } else {
-				// do nothing if the cookie is already set and there is no new mnode link
-			  }
 			}
 		</script>
    </body>
