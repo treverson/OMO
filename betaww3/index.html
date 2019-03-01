@@ -10,7 +10,6 @@
 		<script src="./assets/jquery.min.js"></script>
 		<script src="./assets/bootstrap.min.js"></script>
 		<script src="./assets/contract_ww3_run.js"></script>
-		<!-- <script src="./assets/contract_tronworld_run.js"></script> -->
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -128,13 +127,13 @@
 								</div>
 							</div>
 							<div class="b-content-row count-total-reward-speak" style="display: block;">
-								<div class="clearfix" style="width: 50%;text-align: left;margin: 0 auto;display: flex;align-items: center;box-shadow: 0 0 12px 4px rgba(255, 128, 229, 0.72);border-radius: 8px;background-image: linear-gradient(150deg, #5c00aa 0%, #2f0071 100%);">
+								<div class="clearfix time-reward">
 									<!-- <h3 style="color: white"><span class="grand-jackpotowner"></span></h3> -->
-									<div class="clearfix" style="color: red;width: 55%;float: left;padding: 7px;border-right: 1px solid #8866b2;font-size: 28px;">
+									<div class="clearfix reward">
 											<div class="infor clearfix" style="margin-top: 17px;font-weight: 700;">
 												<img src="./assets/reward.png" style="float: left;width: 25%">
 												<img src="./assets/tick.png" style="width: 5%;float: left; margin-top: 3px;">
-												<span class="text" style="color: white;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;">Total Reward</span>
+												<span class="text" style="color: white;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;">The Grand Pot</span>
 												<div class="price" style="width: 51%;float: left">
 													<span class="grand-pot counter-grand-pot" data-pot="0" style="color: white;" >0</span><span style="color:red;margin-left: 10px">TRX</span>
 													<p class="usd-price" style="font-size: 15px;font-weight: 600;text-transform: uppercase;opacity: 0.6;color: #ffffff;">≈ <span id="grand-pot-usd-balance">0</span> USD</p>
@@ -142,14 +141,14 @@
 												</div>
 											</div>
 										</div>
-									<div class="clearfix" style="color: white;width: 45%;float: right;font-size: 28px;font-weight: 400;padding-left:20px;    margin-bottom: 20px;">
+									<div class="clearfix time">
 										<img src="./assets/tick.png" style="width: 6%;float: left; margin-top: 3px;">
 										<span class="text" style="color: white;font-size: 13px;opacity: 0.6;font-weight: 600;width: 85%;float: left;">Ends in </span>
 										<span class="grand-cd-time">00:00:00</span>
 									</div>
 								</div>
-								<div class="jackpotowner" style="width: 54%;margin: 0 auto;padding: 10px;box-shadow: 0 0 7px 4px rgba(16, 195, 224, 0.58);border-radius: 8px;border: 1px solid #bff1ff;background: #19155c;margin-top: 22px;">
-									<p style="color: white;text-align: center;margin:0;font-size: 17px"><img src="./assets/winner.png" style="float: left;width: 28px;"><span class="grand-jackpotowner" style="color: #f7192c;font-weight: 700"></span> is taking the Grand Pot.</p>
+								<div class="jackpotowner">
+									<p><img src="./assets/winner.png" style="float: left;width: 28px;"><span class="grand-jackpotowner" style="color: #f7192c;font-weight: 700"></span> is taking the Grand Pot.</p>
 								</div>
 							</div>
 							<div class="b-content-row">
@@ -158,45 +157,46 @@
 										<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
 										<div class="b-block-title"><span>Purchase</span></div>
 										<div class="round-time">
-								   		<div class="" style="width: 100%;text-align: center;">
-								   			<div class="clearfix" style="width: 100%;text-align: left;margin: 0 auto;display: flex;align-items: center;border-radius: 8px;background-color: #f3f3f3;margin-bottom: 10px;">
-												<!-- <h3 style="color: white"><span class="grand-jackpotowner"></span></h3> -->
-												<div class="clearfix" style="color: red;width: 50%;float: left;padding: 7px 20px;;border-right: 1px solid #ffffff;font-size: 28px;">
-														<div class="infor" style="margin-top: 8px;font-weight: 700;">
-															<img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
-															<span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;">Price</span>
-															<div class="price" style="width: 100%;float: left">
-																<span class="" style="color: #333333;font-size: 20px">1 KEY = <span class="rate-buy-key">0</span> TRX</span><!-- <span style="color:red;font-weight: 600;font-size: 20px;margin-left: 10px;">TRX</span> -->
+								   			<div class="" style="width: 100%;text-align: center;">
+									   			<div class="clearfix price-and-balance">
+													<!-- <h3 style="color: white"><span class="grand-jackpotowner"></span></h3> -->
+													<div class="clearfix price">
+															<div class="infor" style="margin-top: 8px;font-weight: 700;">
+																<img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
+																<span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;">Price</span>
+																<div class="" style="width: 100%;float: left">
+																	<span class="" style="color: #333333;font-size: 20px">1 KEY = <span class="rate-buy-key">0</span> TRX</span><!-- <span style="color:red;font-weight: 600;font-size: 20px;margin-left: 10px;">TRX</span> -->
+																</div>
 															</div>
-														</div>
 													</div>
-												<div class="clearfix" style="color: white;width: 50%;float: right;font-size: 28px;font-weight: 400;padding-left:20px;margin-top: 8px;">
-													<img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
-													<span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width: 90%;float: left;">Your Balance</span>
-													<span class="" style="color: #333333;font-size: 20px;font-weight: 600;"><span class="player-balance">0</span> TRX</span>
+													<div class="clearfix balance">
+														<img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
+														<span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width: 90%;float: left;">Your Balance</span>
+														<span class="" style="color: #333333;font-size: 20px;font-weight: 600;"><span class="player-balance">0</span> TRX</span>
+													</div>
 												</div>
-											</div>
 											<!-- <h3 style="color: white;"><span class="daily-pot">0</span> TRX</h3>
 											<h3 style="color: white"><span class="daily-cd-time">00:00:00</span></h3> -->
-										</div>
-								   </div>
+											</div>
+								 	  </div>
 										<div class="b-calc-item__block">
 											<div class="b-calc-item__block__left"><span>Key</span></div>
 											<div class="b-calc-item__block__right">
-											   <div class="b-calc-item__block__content"><span>Key</span></div>
-											   <input type="text" style="background-color: #f3f3f3;" class="b-calc-item__input buy-key-input" value="1">
+											   <div class="b-calc-item__block__content"><span>KEY</span></div>
+											   <input type="text" class="b-calc-item__input buy-key-input" value="1">
 											</div>
+											<p style="font-style: italic; font-size: 10px;">*: The number is only an estimate. Actual number will be determined by the blockchain once you have submitted your transaction.</p>
 										</div>
 										<div class="b-calc-item__block">
 											<div class="b-calc-item__block__left"><span>Cost</span></div>
 											<div class="b-calc-item__block__right">
 											   <div class="b-calc-item__block__content"><span>TRX</span></div>
-											   <input type="text" class="b-calc-item__input cost-key-buy" readonly="" value="0.00000000">
+											   <input type="text" style="background-color: #f3f3f3;" class="b-calc-item__input cost-key-buy" readonly="" value="0.00000000">
 											</div>
 										</div>
 										<div class="b-calc-item__bottom" style="margin-top: 26px;"><button class="btn-calc btn-buy buy-grand-key">Purchase</button></div>
 									</div>
-									<div class="vault-container" style="margin-top: 42px;position:relative;">
+									<div class="vault-container" style="margin-top: 29px;position:relative;">
 										<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
 										<div class="b-block-title"><span>Vault</span></div>
 										<div class="player-info">
@@ -207,14 +207,14 @@
 										<div class="b-calc-item__bottom" style="margin-top: 22px;"><button class="btn-calc btn-buy btn-withdraw-whale-war">Withdraw</button></div>	
 									</div>
 								</div>
-								<div class="b-calc-item" style="position: relative;">
+								<div class="b-calc-item daily-dividends" style="position: relative;">
 									<img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
-								   <div class="b-block-title" style=""><span>Daily Dividends</span></div>
+								   <div class="b-block-title" style=""><span>Daily Whale Pot</span></div>
 								   <div class="round-time">
 								   		<div class="" style="width: 100%;text-align: center;">
-								   			<div class="clearfix" style="width: 100%;text-align: left;margin: 0 auto;display: flex;align-items: center;border-radius: 8px;background-color: #f3f3f3;margin-bottom: 10px;">
+								   			<div class="clearfix dividend-coundown">
 												<!-- <h3 style="color: white"><span class="grand-jackpotowner"></span></h3> -->
-												<div class="clearfix" style="color: red;width: 60%;float: left;padding: 7px 20px;;border-right: 1px solid #ffffff;font-size: 28px;">
+												<div class="clearfix reward">
 														<div class="infor" style="margin-top: 8px;font-weight: 700;">
 															<img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
 															<span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;">Today Reward</span>
@@ -223,7 +223,7 @@
 															</div>
 														</div>
 													</div>
-												<div class="clearfix" style="color: white;width: 40%;float: right;font-size: 28px;font-weight: 400;padding-left:20px;">
+												<div class="clearfix time">
 													<img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
 													<span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width: 90%;float: left;">Dividends Countdown</span>
 													<span class="daily-cd-time" style="color: #333333;font-size: 20px;">00:00:00</span>
@@ -240,67 +240,69 @@
 								   				<span class="percen">Percentage</span>
 								   		</div>
 								   		<div class="top1 top clearfix" style="">
-								   				<span class="address"></span>
-								   				<span class="daily-insert"></span>
+								   				<span class="address">Loading</span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">30%</span>
 								   		</div>
 								   		<div class="top2 top clearfix">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">20%</span>
 								   		</div>
 								   		<div class="top3 top clearfix" style="">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">10%</span>
 								   		</div>
 								   		<div class="top4 top clearfix">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">8%</span>
 								   		</div>
 								   		<div class="top5 top clearfix" style="">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">7%</span>
 								   		</div>
 								   		<div class="top6 top clearfix">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">5%</span>
 								   		</div>
 								   		<div class="top7 top clearfix" style="">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">5%</span>
 								   		</div>
 								   		<div class="top8 top clearfix">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">5%</span>
 								   		</div>
 								   		<div class="top9 top clearfix" style="">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">5%</span>
 								   		</div>
 							   			<div class="top10 top clearfix">
-								   				<span class="address"></span>
+								   				<span class="address">Loading</span>
 								   				
-								   				<span class="daily-insert"></span>
+								   				<span class="daily-insert">0</span>
 								   				<span class="percen">5%</span>
 								   		</div>
 
 								   </div>
-																	   
+								   <div class="daily-description" style="margin-top: 10px;font-style: italic">
+									   <p>Daily Whale Pot: The Daily Whale Pot is distributed every 24 hours to the top 10 key buyers in the last 24 hours (ranked by the number of keys bought). The Daily Whale Pot Timer is unaffected by key purchases.</p>
+								   </div>
 								</div>
 							</div>
 
@@ -340,7 +342,6 @@
                                  <div class="img" style="width: 50%;float: right;">
                                  	<img src="./assets/stats-img.png" style="width: 55%;margin: 0 auto;">
                                  </div>
-                                <!--  <button class="btn-block"><a href="https://tronscan.org/#/contract/TEEEQGmbZoeHA24EVG91b6u9zsbWUfefPF" target="_blank" style="color: white;">Check on TRONSCAN</a></button> -->
                               </div>
                               
                            </div>
@@ -365,14 +366,14 @@
 								<div class="how-it-work" style="width: 60%;height: 412px;;margin-right: 30px;">
 									<div class="b-info b-info-two" style="padding: 20px;">
 										<img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
-										<div class="b-col-title"><span>How it works?</span></div>
+										<div class="b-col-title"><span>How it works</span></div>
 										<div class="b-desc-content" style="height: 240px;overflow: auto;">
 										   <div class="b-desc"> 
 											  <div class="b-desc-item">
 												 <div class="b-desc-item__text">
 												 	<p>How to Play Whale War 3 (WW3)</p></br>
 												 	<p>To participate in a round, you must purchase WW3 keys. Every key adds 30 seconds to the Grand Pot Timer (to a cap of 24:00). The Grand Pot Timer starts counting down from 24:00. When it reaches 00:00, the round ends and the Grand Pot is given to the last key buyer.</p></br>
-												 	<p>Daily Dividends: The Daily Dividends is distributed every 24 hours to the top 10 key buyers in the last 24 hours (ranked by the number of keys bought). The Daily Dividends Timer is unaffected by key purchases.</p></br>
+												 	<p>Daily Whale Pot: The Daily Whale Pot is distributed every 24 hours to the top 10 key buyers in the last 24 hours (ranked by the number of keys bought). The Daily Whale Pot Timer is unaffected by key purchases.</p></br>
 												 	<p>Key holders’ dividend: Key holders receive dividends from subsequent key purchases. The amount of dividend is proportional to the number of keys. All keys are reset when a round ends.
 													</p></br></br>
 													<p>Key purchase distribution</br>
@@ -407,10 +408,10 @@
 												  </div>
 											   </div>
 											   <div class="b-faq-item">
-												  <button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>What happens if contract owners disapper?</span><i class="fa fa-chevron-down"></i></button>
+												  <button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>What happens if contract owner disappears?</span><i class="fa fa-chevron-down"></i></button>
 												  <div class="b-faq-item__content collapse" id="collapse1" data-parent="#accordionExample" style="">
 													 <div class="b-faq-item__content__wrap">
-														<p>Actually, nothing! Smart contract will be safe with all the balance. And it will continue to pay you every day. It works independent from anyone or anything.</p>
+														<p> Actually, nothing! Smart contract will be safe with all the balance. And it will continue to pay you every day. It works independently from anyone or anything.</p>
 													 </div>
 												  </div>
 											   </div>
@@ -429,7 +430,7 @@
 									<a href="/" class="b-footer-logo"><img src="./assets/logo-footer.png" alt=""></a>
 									<div class="b-social">
 									   <ul>
-										  <li style="color:#fff">© 2018 12HourTeam. All Rights Reserved. </li>
+										  <li style="color:#fff">© 2019 12HourTeam. All Rights Reserved. </li>
 									   </ul>
 									</div>
                               </div>
