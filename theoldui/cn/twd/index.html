@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en" data-react-helmet="lang">
+   <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		<link rel="stylesheet" href="./assets/amaran.min.css">
+		<title>P3T - 波場世界統治</title>
+		<link href="./assets/main.d83e4544.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="./assets/jquery.min.js"></script>
+		<script src="./assets/bootstrap.min.js"></script>
+		<script src="./assets/contract_tronworld_run.js"></script>
+		<!-- <script src="./assets/contract_tronworld_run.js"></script> -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-P2BWTJH');</script>
+		<!-- End Google Tag Manager -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132340101-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-132340101-1');
+		</script>
+   </head>
+   <body>
+	   <!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2BWTJH"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+      <div class="b-container" id="root">
+         <div>
+            <div>
+               <div>
+                  <div>
+                     <header class="b-header">
+                        <div class="b-header-top">
+                           <div class="wrapper-content">
+                              <div class="b-header-top__wrapper">
+                                 <div>
+									 <a href="/" class="b-logo" style="display: inline-block; vertical-align: middle; margin-right: 15px;color: #c31928;font-size: 40px">
+										<img src="/assets/p3t_logo.png">
+									 </a>
+									 <a class="btn-link-a" href="/cn" style="display: inline-block; color: white">主頁</a>
+									 <a class="btn-link-a" target="" href="/cn/dailyroi" style="display: inline-block; color: white">每天投資回報率</a>
+									 <a class="btn-link-a" target="" href="/cn/twd" style="display: inline-block; color: white">波場世界統治</a>
+									 <a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										智能合約
+									 </a>
+									 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" target="_blank" href="https://tronscan.org/#/contract/TEEEQGmbZoeHA24EVG91b6u9zsbWUfefPF">P3T</a>
+										<a class="dropdown-item" target="_blank" href="https://tronscan.org/#/contract/TKbDT4VAwaMENxQUfTih1TZELGndmzB2vz">每天投資回報率</a>
+										<a class="dropdown-item" target="_blank" href="https://tronscan.org/#/contract/TWnyj5NZc3L96qw8szRZ1fEAv1cnvXunCs">波場世界統治</a>
+									 </div>
+									 <a class="btn-link-a" target="_blank" href="https://github.com/p3tron/p3tron.github.io" style="display: inline-block; color: white">代碼庫</a>
+									 <div class="btn-group" style="vertical-align: initial">
+										<a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="telegram-menu" role="button" data-toggle="dropdown">
+										   電報群
+										</a>
+										<div class="dropdown-menu" aria-labelledby="telegram-menu">
+										   <a class="dropdown-item" target="_blank" href="https://t.me/p3t_en">EN</a>
+										   <a class="dropdown-item" target="_blank" href="https://t.me/p3t_ru">RU</a>
+										</div>
+									 </div>
+									 <a class="btn-link-a" target="_blank" href="https://discord.gg/tx6k4tX" style="display: inline-block; color: white">Discord</a>
+									 <div class="btn-group" style="vertical-align: initial">
+										<a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="lang-menu" role="button" data-toggle="dropdown">
+										   <img src="./assets/cn-language.png" style="height: 16px;width: 32px;float: left;margin-right: 10px"> Chinese (Traditional)
+										</a>
+										<div class="dropdown-menu" aria-labelledby="lang-menu">
+											<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/zh"><img src="./assets/cn-language.png" style="height: 16px;width: 32px;float: left;margin-right: 10px"> Chinese (Simplified)</a>
+											<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/cn"><img src="./assets/cn-language.png" style="height: 16px;width: 32px;float: left;margin-right: 10px"> Chinese (Traditional)</a>
+											<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/"><img src="./assets/en-language.png" style="float: left;margin-right: 10px"> English</a>
+											<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/ru"><img src="./assets/ru-language.png"  style="height: 16px;width: 32px;float: left;margin-right: 10px"> Russian</a>
+										</div>
+									</div>
+								 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </header>
+                     <div class="b-content">
+                        <div class="wrapper-content">
+							<div class="b-content-row">
+								<div class="" style="width: 70%">
+									<h1 style="color: white;">波場世界統治</h1>
+									<p style="color: white">是一款基於 Tron 區塊鏈的戰略遊戲。通過購買國家來征服世界，當您的國家給多次出售便會 贏，或是在倒數完畢時成為最後的購買者，就會贏得大獎。
+									</p>
+								</div>
+							</div>
+							<div class="b-content-row">
+								<div class="" style="width: 100%">
+									<h1 style="color: white;"><span class="tronconquest-pot">0</span> TRX</h1>
+									<h3 style="color: white"><span class="tronconquest-cd-time">00:00:00</span></h3>
+									<h3 style="color: white"><span class="tronconquest-jackpotowner"></span></h3>
+								</div>
+							</div>
+							<div class="b-content-row">
+							   <div class="b-info b-info-two">
+								  <div class="b-info-top">
+									<div class="b-info-title " style="margin-bottom: 20px;text-align: center;"><h3>國家性市場</h3></div>
+									<div style="height: 690px; overflow: auto;">
+										<div class="country-container country-1" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="1">
+											<div class="owned">已被持有</div>
+											<h4>中國（亞洲）</h4>
+											<div class="country-img-container"  >
+												<img class="country-area" src="./assets/countries/100000016.png">
+												<img class="country-flag" src="./assets/flags/2c.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-2" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="2">
+											<div class="owned">已被持有</div>
+											<h4>新加坡（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000034.png">
+												<img class="country-flag" src="./assets/flags/be.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-3" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="3">
+											<div class="owned">已被持有</div>
+											<h4>美國（北美）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000009.png">
+												<img class="country-flag" src="./assets/flags/e1.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-4" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="4">
+											<div class="owned">已被持有</div>
+											<h4>日本（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000015.png">
+												<img class="country-flag" src="./assets/flags/6b.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-5" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="5">
+											<div class="owned">已被持有</div>
+											<h4>俄羅斯（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000042.png">
+												<img class="country-flag" src="./assets/flags/b1.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-6" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="6">
+											<div class="owned">已被持有</div>
+											<h4>加拿大（北美）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000010.png">
+												<img class="country-flag" src="./assets/flags/26.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-7" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="7">
+											<div class="owned">已被持有</div>
+											<h4>德國（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000012.png">
+												<img class="country-flag" src="./assets/flags/50.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-8" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="8">
+											<div class="owned">已被持有</div>
+											<h4>西班牙（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000013.png">
+												<img class="country-flag" src="./assets/flags/c5.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-9" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="9">
+											<div class="owned">已被持有</div>
+											<h4>英國（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000011.png">
+												<img class="country-flag" src="./assets/flags/e0.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-10" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="10">
+											<div class="owned">已被持有</div>
+											<h4>法國（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000014.png">
+												<img class="country-flag" src="./assets/flags/49.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-11" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="11">
+											<div class="owned">已被持有</div>
+											<h4>澳大利亞（大洋洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000017.png">
+												<img class="country-flag" src="./assets/flags/0c.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-12" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="12">
+											<div class="owned">已被持有</div>
+											<h4>比利時（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000019.png">
+												<img class="country-flag" src="./assets/flags/15.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-13" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="13">
+											<div class="owned">已被持有</div>
+											<h4>意大利（歐洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000021.png">
+												<img class="country-flag" src="./assets/flags/69.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-14" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="14">
+											<div class="owned">已被持有</div>
+											<h4>巴西（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000024.png">
+												<img class="country-flag" src="./assets/flags/1e.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-15" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="15">
+											<div class="owned">已被持有</div>
+											<h4>印度（亞洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000032.png">
+												<img class="country-flag" src="./assets/flags/63.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-16" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="16">
+											<div class="owned">已被持有</div>
+											<h4>韓國（共和國）（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000031.png">
+												<img class="country-flag" src="./assets/flags/71.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-17" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="17">
+											<div class="owned">已被持有</div>
+											<h4>新西蘭（大洋洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000018.png">
+												<img class="country-flag" src="./assets/flags/9a.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-18" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="18">
+											<div class="owned">已被持有</div>
+											<h4>挪威（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000025.png">
+												<img class="country-flag" src="./assets/flags/a1.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-19" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="19">
+											<div class="owned">已被持有</div>
+											<h4>葡萄牙（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000022.png">
+												<img class="country-flag" src="./assets/flags/ac.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-20" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="20">
+											<div class="owned">已被持有</div>
+											<h4>印度尼西亞（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000035.png">
+												<img class="country-flag" src="./assets/flags/64.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-21" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="21">
+											<div class="owned">已被持有</div>
+											<h4>香港（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000053.png">
+												<img class="country-flag" src="./assets/flags/60.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-22" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="22">
+											<div class="owned">已被持有</div>
+											<h4>韓國（人民共和國）（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000046.png">
+												<img class="country-flag" src="./assets/flags/70.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-23" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="23">
+											<div class="owned">已被持有</div>
+											<h4>墨西哥（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000029.png">
+												<img class="country-flag" src="./assets/flags/8a.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-24" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="24">
+											<div class="owned">已被持有</div>
+											<h4>巴基斯坦（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000027.png">
+												<img class="country-flag" src="./assets/flags/a3.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-25" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="25">
+											<div class="owned">已被持有</div>
+											<h4>荷蘭（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000020.png">
+												<img class="country-flag" src="./assets/flags/97.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-26" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="26">
+											<div class="owned">已被持有</div>
+											<h4>泰國（亞洲）</h4>
+											<div class="country-img-container"  >
+												<img class="country-area" src="./assets/countries/100000033.png">
+												<img class="country-flag" src="./assets/flags/d3.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-27" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="27">
+											<div class="owned">已被持有</div>
+											<h4>越南（亞洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000037.png">
+												<img class="country-flag" src="./assets/flags/e6.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-28" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="28">
+											<div class="owned">已被持有</div>
+											<h4>菲律賓（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000040.png">
+												<img class="country-flag" src="./assets/flags/a9.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-29" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="29">
+											<div class="owned">已被持有</div>
+											<h4>巴巴多斯（南美洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000043.png">
+												<img class="country-flag" src="./assets/flags/13.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-30" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="30">
+											<div class="owned">已被持有</div>
+											<h4>斯里蘭卡（亞洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000036.png">
+												<img class="country-flag" src="./assets/flags/c6.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-31" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="31">
+											<div class="owned">已被持有</div>
+											<h4>阿富汗（亞洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000030.png">
+												<img class="country-flag" src="./assets/flags/01.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-32" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="32">
+											<div class="owned">已被持有</div>
+											<h4>阿塞拜疆（亞洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000023.png">
+												<img class="country-flag" src="./assets/flags/0f.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-33" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="33">
+											<div class="owned">已被持有</div>
+											<h4>愛爾蘭（歐洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000056.png">
+												<img class="country-flag" src="./assets/flags/67.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-34" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="34">
+											<div class="owned">已被持有</div>
+											<h4>奧地利（歐洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000028.png">
+												<img class="country-flag" src="./assets/flags/0e.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-35" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="35">
+											<div class="owned">已被持有</div>
+											<h4>孟加拉國（亞洲）</h4>
+											<div  class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000041.png">
+												<img class="country-flag" src="./assets/flags/12.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-36" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="36">
+											<div class="owned">已被持有</div>
+											<h4>埃及（非洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000083.png">
+												<img class="country-flag" src="./assets/flags/3f.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-37" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="37">
+											<div class="owned">已被持有</div>
+											<h4>坦桑尼亞（非洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000067.png">
+												<img class="country-flag" src="./assets/flags/d2.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-38" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="38">
+											<div class="owned">已被持有</div>
+											<h4>瑞士（歐洲）</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000068.png">
+												<img class="country-flag" src="./assets/flags/ce.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-39" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="39">
+											<div class="owned">已被持有</div>
+											<h4>土耳其（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000039.png">
+												<img class="country-flag" src="./assets/flags/d9.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-40" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="40">
+											<div class="owned">已被持有</div>
+											<h4>瑞典（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000054.png">
+												<img class="country-flag" src="./assets/flags/cd.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-41" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="41">
+											<div class="owned">已被持有</div>
+											<h4>匈牙利（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000069.png">
+												<img class="country-flag" src="./assets/flags/61.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-42" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="42">
+											<div class="owned">已被持有</div>
+											<h4>阿拉伯聯合酋長國（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000038.png">
+												<img class="country-flag" src="./assets/flags/df.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-43" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="43">
+											<div class="owned">已被持有</div>
+											<h4>伊朗 (伊斯蘭共和國) (亞洲)</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000057.png">
+												<img class="country-flag" src="./assets/flags/65.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-44" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="44">
+											<div class="owned">已被持有</div>
+											<h4>納米比亞（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000063.png">
+												<img class="country-flag" src="./assets/flags/94.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-45" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="45">
+											<div class="owned">已被持有</div>
+											<h4>格魯吉亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000062.png">
+												<img class="country-flag" src="./assets/flags/4f.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-46" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="46">
+											<div class="owned">已被持有</div>
+											<h5>安提瓜和巴布達（南美洲）</h5>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000065.png">
+												<img class="country-flag" src="./assets/flags/09.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-47" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="47">
+											<div class="owned">已被持有</div>
+											<h4>芬蘭（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000061.png">
+												<img class="country-flag" src="./assets/flags/48.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-48" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="48">
+											<div class="owned">已被持有</div>
+											<h4>冰島（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000087.png">
+												<img class="country-flag" src="./assets/flags/62.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-49" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="49">
+											<div class="owned">已被持有</div>
+											<h4>蘇丹（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000079.png">
+												<img class="country-flag" src="./assets/flags/c9.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-50" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="50">
+											<div class="owned">已被持有</div>
+											<h4>委內瑞拉（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000082.png">
+												<img class="country-flag" src="./assets/flags/e5.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-51" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="51">
+											<div class="owned">已被持有</div>
+											<h4>盧森堡（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000072.png">
+												<img class="country-flag" src="./assets/flags/7c.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-52" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="52">
+											<div class="owned">已被持有</div>
+											<h4>聖誕島（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000073.png">
+												<img class="country-flag" src="./assets/flags/2d.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-53" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="53">
+											<div class="owned">已被持有</div>
+											<h4>以色列（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000059.png">
+												<img class="country-flag" src="./assets/flags/68.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-54" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="54">
+											<div class="owned">已被持有</div>
+											<h4>皮特凱恩（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000047.png">
+												<img class="country-flag" src="./assets/flags/aa.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-55" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="55">
+											<div class="owned">已被持有</div>
+											<h4>緬甸（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000052.png">
+												<img class="country-flag" src="./assets/flags/93.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-56" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="56">
+											<div class="owned">已被持有</div>
+											<h4>瓦努阿圖（亞洲)</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000075.png">
+												<img class="country-flag" src="./assets/flags/f0.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-57" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="57">
+											<div class="owned">已被持有</div>
+											<h4>紐埃（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000048.png">
+												<img class="country-flag" src="./assets/flags/9e.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-58" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="58">
+											<div class="owned">已被持有</div>
+											<h4>直布羅陀（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000071.png">
+												<img class="country-flag" src="./assets/flags/52.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-59" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="59">
+											<div class="owned">已被持有</div>
+											<h4>聖赫勒拿（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000066.png">
+												<img class="country-flag" src="./assets/flags/c7.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-60" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="60">
+											<div class="owned">已被持有</div>
+											<h4>塔吉克斯坦（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000060.png">
+												<img class="country-flag" src="./assets/flags/d1.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-61" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="61">
+											<div class="owned">已被持有</div>
+											<h4>羅馬尼亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000080.png">
+												<img class="country-flag" src="./assets/flags/b0.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-62" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="62">
+											<div class="owned">已被持有</div>
+											<h4>馬耳他（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000064.png">
+												<img class="country-flag" src="./assets/flags/84.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-63" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="63">
+											<div class="owned">已被持有</div>
+											<h4>摩納哥（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000086.png">
+												<img class="country-flag" src="./assets/flags/8e.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-64" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="64">
+											<div class="owned">已被持有</div>
+											<h4>秘魯（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000084.png">
+												<img class="country-flag" src="./assets/flags/a8.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-65" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="65">
+											<div class="owned">已被持有</div>
+											<h4>烏干達（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000085.png">
+												<img class="country-flag" src="./assets/flags/dd.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-66" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="66">
+											<div class="owned">已被持有</div>
+											<h4>古巴（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000098.png">
+												<img class="country-flag" src="./assets/flags/36.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-67" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="67">
+											<div class="owned">已被持有</div>
+											<h4>波多黎各（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000096.png">
+												<img class="country-flag" src="./assets/flags/ad.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-68" style="margin-bottom: 10px; margin-right: 1%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="68">
+											<div class="owned">已被持有</div>
+											<h4>阿爾巴尼亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000095.png">
+												<img class="country-flag" src="./assets/flags/02.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-69" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="69">
+											<div class="owned">已被持有</div>
+											<h4>保加利亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000090.png">
+												<img class="country-flag" src="./assets/flags/21.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-70" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="70">
+											<div class="owned">已被持有</div>
+											<h4>塞舌爾（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000076.png">
+												<img class="country-flag" src="./assets/flags/bc.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-71" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="71">
+											<div class="owned">已被持有</div>
+											<h4>格陵蘭（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000089.png">
+												<img class="country-flag" src="./assets/flags/54.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-72" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="72">
+											<div class="owned">已被持有</div>
+											<h4>萊索托（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000094.png">
+												<img class="country-flag" src="./assets/flags/77.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-73" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="73">
+											<div class="owned">已被持有</div>
+											<h4>帕勞（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000093.png">
+												<img class="country-flag" src="./assets/flags/a4.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-74" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="74">
+											<div class="owned">已被持有</div>
+											<h4>智利（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000101.png">
+												<img class="country-flag" src="./assets/flags/2b.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-75" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="75">
+											<div class="owned">已被持有</div>
+											<h4>約旦（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000091.png">
+												<img class="country-flag" src="./assets/flags/6c.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-76" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="76">
+											<div class="owned">已被持有</div>
+											<h4>巴林（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000092.png">
+												<img class="country-flag" src="./assets/flags/11.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-77" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="77">
+											<div class="owned">已被持有</div>
+											<h4>克羅地亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000055.png">
+												<img class="country-flag" src="./assets/flags/35.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-78" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="78">
+											<div class="owned">已被持有</div>
+											<h4>南非（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000026.png">
+												<img class="country-flag" src="./assets/flags/c3.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-79" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="79">
+											<div class="owned">已被持有</div>
+											<h4>愛沙尼亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000070.png">
+												<img class="country-flag" src="./assets/flags/43.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-80" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="80">
+											<div class="owned">已被持有</div>
+											<h4>白俄羅斯（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000100.png">
+												<img class="country-flag" src="./assets/flags/14.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-81" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="81">
+											<div class="owned">已被持有</div>
+											<h4>希臘（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000105.png">
+												<img class="country-flag" src="./assets/flags/53.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-82" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="82">
+											<div class="owned">已被持有</div>
+											<h4>波蘭（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000111.png">
+												<img class="country-flag" src="./assets/flags/ab.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-83" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="83">
+											<div class="owned">已被持有</div>
+											<h4>沙特阿拉伯（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000109.png">
+												<img class="country-flag" src="./assets/flags/b9.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-84" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="84">
+											<div class="owned">已被持有</div>
+											<h4>阿根廷（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000112.png">
+												<img class="country-flag" src="./assets/flags/0a.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-85" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="85">
+											<div class="owned">已被持有</div>
+											<h4>立陶宛（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000078.png">
+												<img class="country-flag" src="./assets/flags/7b.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-86" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="86">
+											<div class="owned">已被持有</div>
+											<h4>台灣（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000103.png">
+												<img class="country-flag" src="./assets/flags/d0.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-87" style="margin-bottom: 10px; margin-right: 1%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="87">
+											<div class="owned">已被持有</div>
+											<h4>捷克共和國（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000107.png">
+												<img class="country-flag" src="./assets/flags/38.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-88" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="88">
+											<div class="owned">已被持有</div>
+											<h4>烏克蘭（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000102.png">
+												<img class="country-flag" src="./assets/flags/de.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-89" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="89">
+											<div class="owned">已被持有</div>
+											<h4>尼日利亞（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000051.png">
+												<img class="country-flag" src="./assets/flags/9d.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-90" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="90">
+											<div class="owned">已被持有</div>
+											<h4>開曼群島（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000045.png">
+												<img class="country-flag" src="./assets/flags/28.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-91" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="91">
+											<div class="owned">已被持有</div>
+											<h4>摩洛哥（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000108.png">
+												<img class="country-flag" src="./assets/flags/91.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-92" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="92">
+											<div class="owned">已被持有</div>
+											<h4>斯洛伐克（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000113.png">
+												<img class="country-flag" src="./assets/flags/bf.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-93" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="93">
+											<div class="owned">已被持有</div>
+											<h4>伊拉克（亞洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000117.png">
+												<img class="country-flag" src="./assets/flags/66.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-94" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="94">
+											<div class="owned">已被持有</div>
+											<h4>尼日爾（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000104.png">
+												<img class="country-flag" src="./assets/flags/9c.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-95" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="95">
+											<div class="owned">已被持有</div>
+											<h4>丹麥（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000088.png">
+												<img class="country-flag" src="./assets/flags/39.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-96" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="96">
+											<div class="owned">已被持有</div>
+											<h4>阿爾及利亞（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000110.png">
+												<img class="country-flag" src="./assets/flags/03.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-97" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="97">
+											<div class="owned">已被持有</div>
+											<h5>羅馬教廷（梵蒂岡城）（歐洲）</h5>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000099.png">
+												<img class="country-flag" src="./assets/flags/5e.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-98" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="98">
+											<div class="owned">已被持有</div>
+											<h4>安哥拉（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000058.png">
+												<img class="country-flag" src="./assets/flags/06.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-99" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="99">
+											<div class="owned">已被持有</div>
+											<h4>加納（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000050.png">
+												<img class="country-flag" src="./assets/flags/51.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-101" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="101">
+											<div class="owned">已被持有</div>
+											<h4>哥斯達黎加（南美洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000118.png">
+												<img class="country-flag" src="./assets/flags/33.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-102" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="102">
+											<div class="owned">已被持有</div>
+											<h4>突尼斯（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000116.png">
+												<img class="country-flag" src="./assets/flags/d8.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-103" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="103">
+											<div class="owned">已被持有</div>
+											<h4>斯洛文尼亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000115.png">
+												<img class="country-flag" src="./assets/flags/c0.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-104" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="104">
+											<div class="owned">已被持有</div>
+											<h4>毛里求斯（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000114.png">
+												<img class="country-flag" src="./assets/flags/88.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-105" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="105">
+											<div class="owned">已被持有</div>
+											<h4>亞美尼亞（歐洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000097.png">
+												<img class="country-flag" src="./assets/flags/0b.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-106" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="106">
+											<div class="owned">已被持有</div>
+											<h4>馬拉維（非洲）</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000049.png">
+												<img class="country-flag" src="./assets/flags/80.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-107" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="107">
+											<div class="owned">已被持有</div>
+											<h5>英屬維爾京群島（南美洲）</h5>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000044.png">
+												<img class="country-flag" src="./assets/flags/e7.png">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-100" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="100">
+											<div class="owned">已被持有</div>
+											<h4>列支登士登 （歐洲）</h4>
+											<div class="country-img-container"  >
+												<img class="country-area" src="./assets/countries/1.png">
+												<img class="country-flag" src="./assets/flags/ls.gif">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-0" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="0">
+											<div class="owned">已被持有</div>
+											<h4>贊比亞（非洲）</h4>
+											<div class="country-img-container"  >
+												<img class="country-area" src="./assets/countries/2.png">
+												<img class="country-flag" src="./assets/flags/za.gif">
+											</div>
+											<p style="font-size: 13px">價格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+									</div>
+								  </div>
+							   </div>
+							</div>
+                           <div class="b-content-row">
+							   <div class="b-info b-info-two">
+								  <div class="b-info-top">
+									<div class="b-info-title " style="margin-bottom: 20px;text-align: center;"><h3>地區性市場</h3></div>
+									<div>
+										<div class="region-container region-0" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-region-id="0">
+											<div class="owned">已被持有</div>
+											<h4>全世界</h4>
+											<img src="./assets/countries/100000001.png">
+
+											<p style="font-size: 13px">價格 : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">全世界會得到所有成功銷售的國家價格 1% 的紅利。</p>
+										</div>
+										<div class="region-container region-1" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-region-id="1">
+											<div class="owned">已被持有</div>
+											<h4>亞洲</h4>
+											<img src="./assets/countries/100000004.png">
+
+											<p style="font-size: 13px">價格 : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">亞洲會得到所有成功銷售的亞洲國家價格 1% 的紅利。.</p>
+										</div>
+										<div class="region-container region-2" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-region-id="2">
+											<div class="owned">已被持有</div>
+											<h4>歐洲</h4>
+											<img src="./assets/countries/100000003.png">
+
+											<p style="font-size: 13px">價格 : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">歐洲會得到所有成功銷售的歐洲國家價格 1% 的紅利。.</p>
+										</div>
+										<div class="region-container region-3" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-region-id="3">
+											<div class="owned">已被持有</div>
+											<h4>北美洲</h4>
+											<img src="./assets/countries/100000002.png">
+
+											<p style="font-size: 13px">價格 : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">北美洲會得到所有成功銷售的北美洲國家價格 1% 的紅利。</p>
+										</div>
+										<div class="region-container region-4" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-region-id="4">
+											<div class="owned">已被持有</div>
+											<h4>南美洲</h4>
+											<img src="./assets/countries/100000007.png">
+
+											<p style="font-size: 13px">價格 : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">南美洲會得到所有成功銷售的南美洲國家價格 1% 的紅利。</p>
+										</div>
+										<div class="region-container region-5" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-region-id="5">
+											<div class="owned">已被持有</div>
+											<h4>大洋洲</h4>
+											<img src="./assets/countries/100000005.png">
+
+											<p style="font-size: 13px">價格 : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">大洋洲會得到所有成功銷售的大洋洲國家價格 1% 的紅利。</p>
+										</div>
+										<div class="region-container region-6" style="margin-bottom: 10px; margin-right: 1%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="6">
+											<div class="owned">已被持有</div>
+											<h4> 非洲</h4>
+											<img src="./assets/countries/100000006.png">
+
+											<p style="font-size: 13px">價格 : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">非洲會得到所有成功銷售的非洲國家價格 1% 的紅利。</p>
+										</div>
+									</div>
+								  </div>
+							   </div>
+							</div>
+							<div class="b-content-row">
+								<div class="b-info b-info-two">
+									<div class="b-col-title"><span>它是如何運作？</span></div>
+									<div class="b-desc-content" style="height: auto">
+									   <div class="b-desc"> 
+										  <div class="b-desc-item">
+											 <div class="b-desc-item__text">
+												<p>
+													總共有 106 個國家，所有國家價格都是由 50 TRX 開始。當您買了一個國家，就能得到此國家的擁有權，而下一位玩家需要付出您當天購入時價格的 1.6 倍才能購買。當國家的擁有權轉手時，您便會得到當天購入時價格的 110 % ( 一次性 )。最新購入價格中的 5 %會去到 P3T 代幣持有者作為紅利，4%會去到開發團隊作為費用，20 %會去到「最後買家獎池」。如果國家市場在最後一次轉手後， 24 小時內再沒有新買家，最後的這位國家擁有人能夠領取「最後買家獎池」 中的 60%，餘下的 40%會累積到下一回合。而每當國家給買入，「最後買家獎池」的倒數將會重新由 24 小時開始。
+												</p>
+												<p>
+													如國家進行交易，全世界和專屬大陸都會得到 1 %的分紅。 
+													<br/>
+													例子：<br/>
+													中國以 10,000 TRX 賣出 <br/>
+													亞洲的持有者會收到 100 TRX <br/>
+													全世界的持有者會收到 100 TRX<br/>
+													全世界和專屬大陸能隨時被其他人用下一個價錢買入。
+												</p>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+								</div>
+							</div>
+							<div class="b-content-row">
+								<div class="b-info b-info-two">
+									<div class="b-col-title"><span>常見問題</span></div>
+									<div class="b-desc-content" style="width: 100%; height: 155px;">
+										<div class="b-faq" id="accordionExample">
+										   <div class="b-faq-item">
+											  <button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false"><span>項目資金會如何分配？</span><i class="fa fa-chevron-down"></i></button>
+											  <div class="b-faq-item__content collapse show" id="collapse13" data-parent="#accordionExample" style="">
+												 <div class="b-faq-item__content__wrap">
+													<p>4% -開發團隊，5% - P3T 代幣持有者，20% - 大獎</p>
+												 </div>
+											  </div>
+										   </div>
+										   <div class="b-faq-item">
+											  <button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>如果合同持有者消失，會發生什麼？</span><i class="fa fa-chevron-down"></i></button>
+											  <div class="b-faq-item__content collapse" id="collapse1" data-parent="#accordionExample" style="">
+												 <div class="b-faq-item__content__wrap">
+													<p>其實不會有任何事發生！智能合約會保護所有結餘。它亦會繼續每天付錢給你。因為它是獨立於任何人或任何事，自行運作的。</p>
+												 </div>
+											  </div>
+										   </div>
+
+									   </div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                     </div>
+                     <footer class="b-footer">
+                        <div class="wrapper-content">
+                           <div class="b-footer-content">
+                              <div class="b-footer-left">
+									<a href="/" class="b-footer-logo"><img src="./assets/tron-logo-black-and-white.png" alt=""></a>
+									<div class="b-social">
+									   <ul>
+										  <li><a href="https://t.me/p3t_en"><i class="fas fa-bullhorn"></i> <i class="fab fa-telegram"></i> P3T</a></li>
+										  <li><a href="https://discordapp.com/invite/tx6k4tX" target="_blank"><i class="fab fa-discord"></i> Discord server</a></li>
+										  <li>© 2018 12HourTeam. All Rights Reserved. </li>
+									   </ul>
+									</div>
+                              </div>
+                           </div>
+                        </div>
+                     </footer>
+                     <div class="modal fade" tabindex="-1" id="instructions-modal" data-backdrop="static" data-keyboard="false">
+                        <div class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title">Tutorial</h5>
+                                 <button type="button" class="close"><span aria-hidden="true">×</span></button>
+                              </div>
+                              <div class="modal-body"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	   <script type="text/javascript">
+			function getCookie(name) {
+				var dc = document.cookie;
+				var prefix = name + "=";
+				var begin = dc.indexOf("; " + prefix);
+
+				if (begin == -1) {
+				  begin = dc.indexOf(prefix);
+				  if (begin != 0) return null;
+				}
+				else
+				{
+					begin += 2;
+					var end = document.cookie.indexOf(";", begin);
+					if (end == -1) {
+					end = dc.length;
+				  }
+				}
+
+				return decodeURI(dc.substring(begin + prefix.length, end));
+			}
+
+			var url_string = window.location.href;
+			var url = new URL(url_string);
+			var theCookie = "dailyroinode=" + url.searchParams.get("masternode");
+
+			if (url.searchParams.get("dailyroinode") !== null) {
+			  var toSet = "dailyroinode=" + url.searchParams.get("masternode");
+			  document.cookie=theCookie;
+			} else {
+
+			  var refCookie = getCookie("dailyroinode");
+
+			  if (refCookie === null) {
+				console.log("Ref cookie was null. Setting to default.");
+				document.cookie = "dailyroinode=TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV";
+			  } else {
+				// do nothing if the cookie is already set and there is no new mnode link
+			  }
+			}
+		</script>
+   </body>
+</html>
