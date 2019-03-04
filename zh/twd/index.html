@@ -86,24 +86,44 @@
                      </header>
                      <div class="b-content">
                         <div class="wrapper-content">
-							<div class="b-content-row">
-								<div class="" style="width: 70%">
+                        	<div class="b-content-row">
+								<div class="title-tron-page" style="">
 									<h1 style="color: white;">波场世界统治</h1>
-									<p style="color: white">是一款基于 Tron 区块链的战略游戏。通过购买国家来征服世界，当您的国家给多次出售便会
-									</p>
+									<p style="">是一款基于 Tron 区块链的战略游戏。通过购买国家来征服世界，当您的国家给多次出售便会</p>
+									<h1 style="color: white;font-size: 24px;" class="tronconquest-jackpotowner"></h1>
 								</div>
-							</div>
-							<div class="b-content-row">
-								<div class="" style="width: 100%">
-									<h1 style="color: white;"><span class="tronconquest-pot">0</span> TRX</h1>
+								<div class="time-coundown" style="">
+									<div class="clearfix" >
+										<!-- <h3 style="color: white"><span class="grand-jackpotowner"></span></h3> -->
+										<div class="clearfix" style="color: red;width: 100%;float: left;font-size: 28px;">
+											<div class="infor clearfix" style="font-weight: 700;">
+												<img src="./assets/tick.png" style="width: 3%;float: left; margin-top: 6px;margin-right: 5px;">
+												<span class="text" style="color: white;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;    text-align: left;">Total Reward</span>
+												<div class="price" style="width: 51%;float: left">
+													<span class="tronconquest-pot" style="color: white;" >0</span><span style="color:red;margin-left: 10px">TRX</span>
+													<p class="usd-price" style="font-size: 15px;text-align: left;font-weight: 600;text-transform: uppercase;opacity: 0.6;color: #ffffff;">≈ <span id="pot-in-usd">0.00</span> USD</p>
+												</div>
+											</div>
+										</div>
+										<div class="clearfix" style="color: white;width: 100%;float: right;font-size: 28px;font-weight: 400;text-align: left;">
+											<img src="./assets/tick.png" style="width: 3%;float: left; margin-top: 6px;margin-right: 5px;">
+											<span class="text" style="color: white;font-size: 13px;opacity: 0.6;font-weight: 600;width: 95%;float: left;    text-align: left;">Timer Countdown</span>
+											<span class="tronconquest-cd-time">00:00:00</span>
+											
+										</div>
+									</div>
+									<!-- h1 style="color: white;"><span >0</span> TRX</h1>
 									<h3 style="color: white"><span class="tronconquest-cd-time">00:00:00</span></h3>
-									<h3 style="color: white"><span class="tronconquest-jackpotowner"></span></h3>
+									<h3 style="color: white"></h3> -->
 								</div>
 							</div>
 							<div class="b-content-row">
-							   <div class="b-info b-info-two">
+							    <div class="b-info b-info-two" style="    position: relative;">
 								  <div class="b-info-top">
-									<div class="b-info-title " style="margin-bottom: 20px;text-align: center;"><h3>国家性市场</h3></div>
+									<div class="b-info-title " style="margin-bottom: 20px;text-align: left;">
+										<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
+										<h3 style="font-size: 18px;font-weight: 700;">国家性市场</h3>
+									</div>
 									<div style="height: 690px; overflow: auto;">
 										<div class="country-container country-1" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="1">
 											<div class="owned">已被持有</div>
@@ -112,7 +132,7 @@
 												<img class="country-area" src="./assets/countries/100000016.png">
 												<img class="country-flag" src="./assets/flags/2c.png">
 											</div>
-											<p style="font-size: 13px">价格: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格: <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-2" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="2">
@@ -122,7 +142,7 @@
 												<img class="country-area" src="./assets/countries/100000034.png">
 												<img class="country-flag" src="./assets/flags/be.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-3" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="3">
@@ -132,7 +152,7 @@
 												<img class="country-area" src="./assets/countries/100000009.png">
 												<img class="country-flag" src="./assets/flags/e1.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-4" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="4">
@@ -142,7 +162,7 @@
 												<img class="country-area" src="./assets/countries/100000015.png">
 												<img class="country-flag" src="./assets/flags/6b.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-5" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="5">
@@ -152,7 +172,7 @@
 												<img class="country-area" src="./assets/countries/100000042.png">
 												<img class="country-flag" src="./assets/flags/b1.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-6" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="6">
@@ -162,7 +182,7 @@
 												<img class="country-area" src="./assets/countries/100000010.png">
 												<img class="country-flag" src="./assets/flags/26.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-7" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="7">
@@ -172,7 +192,7 @@
 												<img class="country-area" src="./assets/countries/100000012.png">
 												<img class="country-flag" src="./assets/flags/50.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-8" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="8">
@@ -182,7 +202,7 @@
 												<img class="country-area" src="./assets/countries/100000013.png">
 												<img class="country-flag" src="./assets/flags/c5.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-9" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="9">
@@ -192,7 +212,7 @@
 												<img class="country-area" src="./assets/countries/100000011.png">
 												<img class="country-flag" src="./assets/flags/e0.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-10" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="10">
@@ -202,7 +222,7 @@
 												<img class="country-area" src="./assets/countries/100000014.png">
 												<img class="country-flag" src="./assets/flags/49.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-11" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="11">
@@ -212,7 +232,7 @@
 												<img class="country-area" src="./assets/countries/100000017.png">
 												<img class="country-flag" src="./assets/flags/0c.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-12" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="12">
@@ -222,7 +242,7 @@
 												<img class="country-area" src="./assets/countries/100000019.png">
 												<img class="country-flag" src="./assets/flags/15.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-13" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="13">
@@ -232,7 +252,7 @@
 												<img class="country-area" src="./assets/countries/100000021.png">
 												<img class="country-flag" src="./assets/flags/69.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-14" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="14">
@@ -242,7 +262,7 @@
 												<img class="country-area" src="./assets/countries/100000024.png">
 												<img class="country-flag" src="./assets/flags/1e.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-15" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="15">
@@ -252,7 +272,7 @@
 												<img class="country-area" src="./assets/countries/100000032.png">
 												<img class="country-flag" src="./assets/flags/63.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-16" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="16">
@@ -262,7 +282,7 @@
 												<img class="country-area" src="./assets/countries/100000031.png">
 												<img class="country-flag" src="./assets/flags/71.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-17" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="17">
@@ -272,7 +292,7 @@
 												<img class="country-area" src="./assets/countries/100000018.png">
 												<img class="country-flag" src="./assets/flags/9a.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-18" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="18">
@@ -282,7 +302,7 @@
 												<img class="country-area" src="./assets/countries/100000025.png">
 												<img class="country-flag" src="./assets/flags/a1.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-19" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="19">
@@ -292,7 +312,7 @@
 												<img class="country-area" src="./assets/countries/100000022.png">
 												<img class="country-flag" src="./assets/flags/ac.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-20" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="20">
@@ -302,7 +322,7 @@
 												<img class="country-area" src="./assets/countries/100000035.png">
 												<img class="country-flag" src="./assets/flags/64.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-21" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="21">
@@ -312,7 +332,7 @@
 												<img class="country-area" src="./assets/countries/100000053.png">
 												<img class="country-flag" src="./assets/flags/60.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-22" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="22">
@@ -322,7 +342,7 @@
 												<img class="country-area" src="./assets/countries/100000046.png">
 												<img class="country-flag" src="./assets/flags/70.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-23" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="23">
@@ -332,7 +352,7 @@
 												<img class="country-area" src="./assets/countries/100000029.png">
 												<img class="country-flag" src="./assets/flags/8a.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-24" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="24">
@@ -342,7 +362,7 @@
 												<img class="country-area" src="./assets/countries/100000027.png">
 												<img class="country-flag" src="./assets/flags/a3.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-25" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="25">
@@ -352,7 +372,7 @@
 												<img class="country-area" src="./assets/countries/100000020.png">
 												<img class="country-flag" src="./assets/flags/97.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-26" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="26">
@@ -362,7 +382,7 @@
 												<img class="country-area" src="./assets/countries/100000033.png">
 												<img class="country-flag" src="./assets/flags/d3.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-27" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="27">
@@ -372,7 +392,7 @@
 												<img class="country-area" src="./assets/countries/100000037.png">
 												<img class="country-flag" src="./assets/flags/e6.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-28" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="28">
@@ -382,7 +402,7 @@
 												<img class="country-area" src="./assets/countries/100000040.png">
 												<img class="country-flag" src="./assets/flags/a9.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-29" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="29">
@@ -392,7 +412,7 @@
 												<img class="country-area" src="./assets/countries/100000043.png">
 												<img class="country-flag" src="./assets/flags/13.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-30" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="30">
@@ -402,7 +422,7 @@
 												<img class="country-area" src="./assets/countries/100000036.png">
 												<img class="country-flag" src="./assets/flags/c6.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-31" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="31">
@@ -412,7 +432,7 @@
 												<img class="country-area" src="./assets/countries/100000030.png">
 												<img class="country-flag" src="./assets/flags/01.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-32" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="32">
@@ -422,7 +442,7 @@
 												<img class="country-area" src="./assets/countries/100000023.png">
 												<img class="country-flag" src="./assets/flags/0f.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-33" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="33">
@@ -432,7 +452,7 @@
 												<img class="country-area" src="./assets/countries/100000056.png">
 												<img class="country-flag" src="./assets/flags/67.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-34" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="34">
@@ -442,7 +462,7 @@
 												<img class="country-area" src="./assets/countries/100000028.png">
 												<img class="country-flag" src="./assets/flags/0e.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-35" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="35">
@@ -452,7 +472,7 @@
 												<img class="country-area" src="./assets/countries/100000041.png">
 												<img class="country-flag" src="./assets/flags/12.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-36" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="36">
@@ -462,7 +482,7 @@
 												<img class="country-area" src="./assets/countries/100000083.png">
 												<img class="country-flag" src="./assets/flags/3f.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-37" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="37">
@@ -472,7 +492,7 @@
 												<img class="country-area" src="./assets/countries/100000067.png">
 												<img class="country-flag" src="./assets/flags/d2.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-38" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="38">
@@ -482,7 +502,7 @@
 												<img class="country-area" src="./assets/countries/100000068.png">
 												<img class="country-flag" src="./assets/flags/ce.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-39" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="39">
@@ -492,7 +512,7 @@
 												<img class="country-area" src="./assets/countries/100000039.png">
 												<img class="country-flag" src="./assets/flags/d9.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-40" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="40">
@@ -502,7 +522,7 @@
 												<img class="country-area" src="./assets/countries/100000054.png">
 												<img class="country-flag" src="./assets/flags/cd.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-41" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="41">
@@ -512,7 +532,7 @@
 												<img class="country-area" src="./assets/countries/100000069.png">
 												<img class="country-flag" src="./assets/flags/61.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-42" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="42">
@@ -522,7 +542,7 @@
 												<img class="country-area" src="./assets/countries/100000038.png">
 												<img class="country-flag" src="./assets/flags/df.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-43" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="43">
@@ -532,7 +552,7 @@
 												<img class="country-area" src="./assets/countries/100000057.png">
 												<img class="country-flag" src="./assets/flags/65.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-44" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="44">
@@ -542,7 +562,7 @@
 												<img class="country-area" src="./assets/countries/100000063.png">
 												<img class="country-flag" src="./assets/flags/94.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-45" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="45">
@@ -552,7 +572,7 @@
 												<img class="country-area" src="./assets/countries/100000062.png">
 												<img class="country-flag" src="./assets/flags/4f.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-46" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="46">
@@ -562,7 +582,7 @@
 												<img class="country-area" src="./assets/countries/100000065.png">
 												<img class="country-flag" src="./assets/flags/09.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-47" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="47">
@@ -572,7 +592,7 @@
 												<img class="country-area" src="./assets/countries/100000061.png">
 												<img class="country-flag" src="./assets/flags/48.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-48" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="48">
@@ -582,7 +602,7 @@
 												<img class="country-area" src="./assets/countries/100000087.png">
 												<img class="country-flag" src="./assets/flags/62.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-49" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="49">
@@ -592,7 +612,7 @@
 												<img class="country-area" src="./assets/countries/100000079.png">
 												<img class="country-flag" src="./assets/flags/c9.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-50" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="50">
@@ -602,7 +622,7 @@
 												<img class="country-area" src="./assets/countries/100000082.png">
 												<img class="country-flag" src="./assets/flags/e5.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-51" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="51">
@@ -612,7 +632,7 @@
 												<img class="country-area" src="./assets/countries/100000072.png">
 												<img class="country-flag" src="./assets/flags/7c.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-52" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="52">
@@ -622,7 +642,7 @@
 												<img class="country-area" src="./assets/countries/100000073.png">
 												<img class="country-flag" src="./assets/flags/2d.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-53" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="53">
@@ -632,7 +652,7 @@
 												<img class="country-area" src="./assets/countries/100000059.png">
 												<img class="country-flag" src="./assets/flags/68.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-54" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="54">
@@ -642,7 +662,7 @@
 												<img class="country-area" src="./assets/countries/100000047.png">
 												<img class="country-flag" src="./assets/flags/aa.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-55" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="55">
@@ -652,7 +672,7 @@
 												<img class="country-area" src="./assets/countries/100000052.png">
 												<img class="country-flag" src="./assets/flags/93.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-56" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="56">
@@ -662,7 +682,7 @@
 												<img class="country-area" src="./assets/countries/100000075.png">
 												<img class="country-flag" src="./assets/flags/f0.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-57" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="57">
@@ -672,7 +692,7 @@
 												<img class="country-area" src="./assets/countries/100000048.png">
 												<img class="country-flag" src="./assets/flags/9e.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-58" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="58">
@@ -682,7 +702,7 @@
 												<img class="country-area" src="./assets/countries/100000071.png">
 												<img class="country-flag" src="./assets/flags/52.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-59" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="59">
@@ -692,7 +712,7 @@
 												<img class="country-area" src="./assets/countries/100000066.png">
 												<img class="country-flag" src="./assets/flags/c7.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-60" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="60">
@@ -702,7 +722,7 @@
 												<img class="country-area" src="./assets/countries/100000060.png">
 												<img class="country-flag" src="./assets/flags/d1.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-61" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="61">
@@ -712,7 +732,7 @@
 												<img class="country-area" src="./assets/countries/100000080.png">
 												<img class="country-flag" src="./assets/flags/b0.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-62" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="62">
@@ -722,7 +742,7 @@
 												<img class="country-area" src="./assets/countries/100000064.png">
 												<img class="country-flag" src="./assets/flags/84.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-63" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="63">
@@ -732,7 +752,7 @@
 												<img class="country-area" src="./assets/countries/100000086.png">
 												<img class="country-flag" src="./assets/flags/8e.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-64" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="64">
@@ -742,7 +762,7 @@
 												<img class="country-area" src="./assets/countries/100000084.png">
 												<img class="country-flag" src="./assets/flags/a8.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-65" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="65">
@@ -752,7 +772,7 @@
 												<img class="country-area" src="./assets/countries/100000085.png">
 												<img class="country-flag" src="./assets/flags/dd.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-66" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="66">
@@ -762,7 +782,7 @@
 												<img class="country-area" src="./assets/countries/100000098.png">
 												<img class="country-flag" src="./assets/flags/36.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-67" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="67">
@@ -772,7 +792,7 @@
 												<img class="country-area" src="./assets/countries/100000096.png">
 												<img class="country-flag" src="./assets/flags/ad.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-68" style="margin-bottom: 10px; margin-right: 1%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="68">
@@ -782,7 +802,7 @@
 												<img class="country-area" src="./assets/countries/100000095.png">
 												<img class="country-flag" src="./assets/flags/02.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-69" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="69">
@@ -792,7 +812,7 @@
 												<img class="country-area" src="./assets/countries/100000090.png">
 												<img class="country-flag" src="./assets/flags/21.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-70" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="70">
@@ -802,7 +822,7 @@
 												<img class="country-area" src="./assets/countries/100000076.png">
 												<img class="country-flag" src="./assets/flags/bc.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-71" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="71">
@@ -812,7 +832,7 @@
 												<img class="country-area" src="./assets/countries/100000089.png">
 												<img class="country-flag" src="./assets/flags/54.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-72" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="72">
@@ -822,7 +842,7 @@
 												<img class="country-area" src="./assets/countries/100000094.png">
 												<img class="country-flag" src="./assets/flags/77.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-73" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="73">
@@ -832,7 +852,7 @@
 												<img class="country-area" src="./assets/countries/100000093.png">
 												<img class="country-flag" src="./assets/flags/a4.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-74" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="74">
@@ -842,7 +862,7 @@
 												<img class="country-area" src="./assets/countries/100000101.png">
 												<img class="country-flag" src="./assets/flags/2b.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-75" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="75">
@@ -852,7 +872,7 @@
 												<img class="country-area" src="./assets/countries/100000091.png">
 												<img class="country-flag" src="./assets/flags/6c.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-76" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="76">
@@ -862,7 +882,7 @@
 												<img class="country-area" src="./assets/countries/100000092.png">
 												<img class="country-flag" src="./assets/flags/11.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-77" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="77">
@@ -872,7 +892,7 @@
 												<img class="country-area" src="./assets/countries/100000055.png">
 												<img class="country-flag" src="./assets/flags/35.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-78" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="78">
@@ -882,7 +902,7 @@
 												<img class="country-area" src="./assets/countries/100000026.png">
 												<img class="country-flag" src="./assets/flags/c3.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-79" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="79">
@@ -892,7 +912,7 @@
 												<img class="country-area" src="./assets/countries/100000070.png">
 												<img class="country-flag" src="./assets/flags/43.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-80" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="80">
@@ -902,7 +922,7 @@
 												<img class="country-area" src="./assets/countries/100000100.png">
 												<img class="country-flag" src="./assets/flags/14.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-81" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="81">
@@ -912,7 +932,7 @@
 												<img class="country-area" src="./assets/countries/100000105.png">
 												<img class="country-flag" src="./assets/flags/53.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-82" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="82">
@@ -922,7 +942,7 @@
 												<img class="country-area" src="./assets/countries/100000111.png">
 												<img class="country-flag" src="./assets/flags/ab.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-83" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="83">
@@ -932,7 +952,7 @@
 												<img class="country-area" src="./assets/countries/100000109.png">
 												<img class="country-flag" src="./assets/flags/b9.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-84" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="84">
@@ -942,7 +962,7 @@
 												<img class="country-area" src="./assets/countries/100000112.png">
 												<img class="country-flag" src="./assets/flags/0a.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-85" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="85">
@@ -952,7 +972,7 @@
 												<img class="country-area" src="./assets/countries/100000078.png">
 												<img class="country-flag" src="./assets/flags/7b.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-86" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="86">
@@ -962,7 +982,7 @@
 												<img class="country-area" src="./assets/countries/100000103.png">
 												<img class="country-flag" src="./assets/flags/d0.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-87" style="margin-bottom: 10px; margin-right: 1%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="87">
@@ -972,7 +992,7 @@
 												<img class="country-area" src="./assets/countries/100000107.png">
 												<img class="country-flag" src="./assets/flags/38.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-88" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="88">
@@ -982,7 +1002,7 @@
 												<img class="country-area" src="./assets/countries/100000102.png">
 												<img class="country-flag" src="./assets/flags/de.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-89" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="89">
@@ -992,7 +1012,7 @@
 												<img class="country-area" src="./assets/countries/100000051.png">
 												<img class="country-flag" src="./assets/flags/9d.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-90" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="90">
@@ -1002,7 +1022,7 @@
 												<img class="country-area" src="./assets/countries/100000045.png">
 												<img class="country-flag" src="./assets/flags/28.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-91" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="91">
@@ -1012,7 +1032,7 @@
 												<img class="country-area" src="./assets/countries/100000108.png">
 												<img class="country-flag" src="./assets/flags/91.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-92" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="92">
@@ -1022,7 +1042,7 @@
 												<img class="country-area" src="./assets/countries/100000113.png">
 												<img class="country-flag" src="./assets/flags/bf.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-93" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="93">
@@ -1032,7 +1052,7 @@
 												<img class="country-area" src="./assets/countries/100000117.png">
 												<img class="country-flag" src="./assets/flags/66.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-94" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="94">
@@ -1042,7 +1062,7 @@
 												<img class="country-area" src="./assets/countries/100000104.png">
 												<img class="country-flag" src="./assets/flags/9c.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-95" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="95">
@@ -1052,7 +1072,7 @@
 												<img class="country-area" src="./assets/countries/100000088.png">
 												<img class="country-flag" src="./assets/flags/39.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-96" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="96">
@@ -1062,7 +1082,7 @@
 												<img class="country-area" src="./assets/countries/100000110.png">
 												<img class="country-flag" src="./assets/flags/03.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-97" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="97">
@@ -1072,7 +1092,7 @@
 												<img class="country-area" src="./assets/countries/100000099.png">
 												<img class="country-flag" src="./assets/flags/5e.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-98" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="98">
@@ -1082,7 +1102,7 @@
 												<img class="country-area" src="./assets/countries/100000058.png">
 												<img class="country-flag" src="./assets/flags/06.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-99" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="99">
@@ -1092,7 +1112,7 @@
 												<img class="country-area" src="./assets/countries/100000050.png">
 												<img class="country-flag" src="./assets/flags/51.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-101" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="101">
@@ -1102,7 +1122,7 @@
 												<img class="country-area" src="./assets/countries/100000118.png">
 												<img class="country-flag" src="./assets/flags/33.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-102" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="102">
@@ -1112,7 +1132,7 @@
 												<img class="country-area" src="./assets/countries/100000116.png">
 												<img class="country-flag" src="./assets/flags/d8.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-103" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="103">
@@ -1122,7 +1142,7 @@
 												<img class="country-area" src="./assets/countries/100000115.png">
 												<img class="country-flag" src="./assets/flags/c0.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-104" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="104">
@@ -1132,7 +1152,7 @@
 												<img class="country-area" src="./assets/countries/100000114.png">
 												<img class="country-flag" src="./assets/flags/88.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-105" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="105">
@@ -1142,7 +1162,7 @@
 												<img class="country-area" src="./assets/countries/100000097.png">
 												<img class="country-flag" src="./assets/flags/0b.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-106" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="106">
@@ -1152,7 +1172,7 @@
 												<img class="country-area" src="./assets/countries/100000049.png">
 												<img class="country-flag" src="./assets/flags/80.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-107" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="107">
@@ -1162,7 +1182,7 @@
 												<img class="country-area" src="./assets/countries/100000044.png">
 												<img class="country-flag" src="./assets/flags/e7.png">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-100" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="100">
@@ -1172,7 +1192,7 @@
 												<img class="country-area" src="./assets/countries/1.png">
 												<img class="country-flag" src="./assets/flags/ls.gif">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 										<div class="country-container country-0" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="0">
@@ -1182,7 +1202,7 @@
 												<img class="country-area" src="./assets/countries/2.png">
 												<img class="country-flag" src="./assets/flags/za.gif">
 											</div>
-											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格 : <span class="conquest-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 										</div>
 									</div>
@@ -1190,16 +1210,19 @@
 							   </div>
 							</div>
                            <div class="b-content-row">
-							   <div class="b-info b-info-two">
+							    <div class="b-info b-info-two">
 								  <div class="b-info-top">
-									<div class="b-info-title " style="margin-bottom: 20px;text-align: center;"><h3> 地区性市场 </h3></div>
+									<div class="b-info-title " style="margin-bottom: 20px;text-align: left;">
+										<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
+										<h3 style="font-size: 18px;font-weight: 700;">地区性市场</h3>
+									</div>
 									<div>
 										<div class="region-container region-0" style="margin-bottom: 10px; margin-right: 1%;  float: left; border: 1px grey solid; padding: 20px;" data-region-id="0">
 											<div class="owned">已被持有</div>
 											<h4>全世界</h4>
 											<img src="./assets/countries/100000001.png">
 
-											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 											<p style="font-size: 13px">全世界会得到所有成功销售的国家价格 1% 的红利</p>
 										</div>
@@ -1208,7 +1231,7 @@
 											<h4> 亚洲 </h4>
 											<img src="./assets/countries/100000004.png">
 
-											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 											<p style="font-size: 13px">亚洲会得到所有成功销售的亚洲国家价格 1% 的红利。</p>
 										</div>
@@ -1217,7 +1240,7 @@
 											<h4> 欧洲 </h4>
 											<img src="./assets/countries/100000003.png">
 
-											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 											<p style="font-size: 13px">欧洲会得到所有成功销售的欧洲国家价格 1% 的红利。</p>
 										</div>
@@ -1226,7 +1249,7 @@
 											<h4>北美洲</h4>
 											<img src="./assets/countries/100000002.png">
 
-											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 											<p style="font-size: 13px">北美洲会得到所有成功销售的北美洲国家价格 1% 的红利</p>
 										</div>
@@ -1235,7 +1258,7 @@
 											<h4>南美洲</h4>
 											<img src="./assets/countries/100000007.png">
 
-											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 											<p style="font-size: 13px">南美洲会得到所有成功销售的南美洲国家价格 1% 的红利。</p>
 										</div>
@@ -1244,7 +1267,7 @@
 											<h4> 大洋洲 </h4>
 											<img src="./assets/countries/100000005.png">
 
-											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 											<p style="font-size: 13px">大洋洲会得到所有成功销售的大洋洲国家价格 1% 的红利。</p>
 										</div>
@@ -1253,7 +1276,7 @@
 											<h4> 非洲</h4>
 											<img src="./assets/countries/100000006.png">
 
-											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">購買</span></p>
+											<p style="font-size: 13px">价格  : <span class="region-price">50</span> TRX <span class="btn-buy-twd">購買</span></p>
 											<p style="font-size: 13px">持有者: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
 											<p style="font-size: 13px">非洲会得到所有成功销售的非洲国家价格 1% 的红利。</p>
 										</div>
@@ -1262,38 +1285,34 @@
 							   </div>
 							</div>
 							<div class="b-content-row">
-								<div class="b-info b-info-two">
-									<div class="b-col-title"><span>它是如何运作？</span></div>
-									<div class="b-desc-content" style="height: auto">
-									   <div class="b-desc"> 
-										  <div class="b-desc-item">
-											 <div class="b-desc-item__text">
+							 <div class="b-col" style="padding: 20px">
+                                 <img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
+                                 <div class="b-col-title"><span>它是如何运作？</span></div>
+                                 <div class="b-desc-content">
+                                    <div class="b-desc">
+										 <div class="b-desc-item__text">
+                                             <p>总共有 106 个国家，所有国家价格都是由 50 TRX 开始。当您买了一个国家，就能得到此国家的拥有权，而下一位玩家需要付出您当天购入时价格的 1.6 倍才能购买。当国家的拥有权转手时，您便会得到当天购入时价格的 110 % ( 一次性 )。最新购入价格中的 5 %会去到 P3T 代币持有者作为红利，4%会去到开发团队作为费用，20 %会去到「最后买家奖池」。如果国家市场在最后一次转手 24 小时后再没有买家，最后的这位国家拥有人能够领取「最后买家奖池」中的 60%，余下的 40%会累积到下一回合。每当国家给买入，「最后买家奖池」的倒数就会重新由 24 小时开始。</p>
 												<p>
-													总共有 106 个国家，所有国家价格都是由 50 TRX 开始。当您买了一个国家，就能得到此国家的拥有权，而下一位玩家需要付出您当天购入时价格的 1.6 倍才能购买。当国家的拥有权转手时，您便会得到当天购入时价格的 110 % ( 一次性 )。最新购入价格中的 5 %会去到 P3T 代币持有者作为红利，4%会去到开发团队作为费用，20 %会去到「最后买家奖池」。如果国家市场在最后一次转手 24 小时后再没有买家，最后的这位国家拥有人能够领取「最后买家奖池」中的 60%，余下的 40%会累积到下一回合。每当国家给买入，「最后买家奖池」的倒数就会重新由 24 小时开始。
-												</p>
-												<p>
-													如国家进行交易，全世界和专属大陆都会得到 1 %的分红。 
+													如国家进行交易，全世界和专属大陆都会得到 1 %的分红。
 													<br/>
-													例子：<br/>
-													中国以 10,000 TRX 卖出 <br/>
-													亚洲的持有者会收到 100 TRX <br/>
+													例子:<br/>
+													中国以 10,000 TRX 卖出  <br/>
+													亚洲的持有者会收到 100 TRX  <br/>
 													全世界的持有者会收到 100 TRX<br/>
 													全世界和专属大陆都能随时给其他人用下一个价钱买入。
 												</p>
-											 </div>
-										  </div>
-									   </div>
-									</div>
-								</div>
-							</div>
-							<div class="b-content-row">
-								<div class="b-info b-info-two">
+                                          </div>
+                                    </div>
+                                 </div>
+	                          </div>
+	                          <div class="b-col" style="padding: 20px;position: relative;">
+	                             <img src="./assets/tick-half-3.png" style="position: absolute;left: 0;top: 17px;">
 									<div class="b-col-title"><span>常见问题</span></div>
-									<div class="b-desc-content" style="width: 100%; height: 155px;">
+									<div class="b-desc-content" style="width: 100%; height: 215px;">
 										<div class="b-faq" id="accordionExample">
 										   <div class="b-faq-item">
-											  <button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false"><span>项目资金会如何分配？</span><i class="fa fa-chevron-down"></i></button>
-											  <div class="b-faq-item__content collapse show" id="collapse13" data-parent="#accordionExample" style="">
+											  <button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false"><span>项目资金会如何分配？</span><i class="fa fa-chevron-down"></i></button>
+											  <div class="b-faq-item__content collapse" id="collapse13" data-parent="#accordionExample" style="">
 												 <div class="b-faq-item__content__wrap">
 													<p>5% -开发团队，10% - P3T 代币持有者，25% - 大奖</p>
 												 </div>
@@ -1303,30 +1322,32 @@
 											  <button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>如果合同持有者消失，会发生什么？</span><i class="fa fa-chevron-down"></i></button>
 											  <div class="b-faq-item__content collapse" id="collapse1" data-parent="#accordionExample" style="">
 												 <div class="b-faq-item__content__wrap">
-													<p>其实不会有任何事发生！智能合约会保护所有结余。它亦会继续每天付钱给你。因为它是独立于任何人或任何事，自行运作的。</p>
+													<p>其实不会有任何事发生！智能合约会保护所有结余。它亦会继续每天付钱给你。因为它是独立于任何人或任何事，自行运作的。.</p>
 												 </div>
 											  </div>
 										   </div>
 
 									   </div>
 									</div>
-								</div>
-							</div>
+	                          </div>
+                           </div>
                         </div>
                      </div>
-                     <footer class="b-footer">
+                    <footer class="b-footer">
                         <div class="wrapper-content">
                            <div class="b-footer-content">
                               <div class="b-footer-left">
-									<a href="/" class="b-footer-logo"><img src="./assets/tron-logo-black-and-white.png" alt=""></a>
-									<div class="b-social">
-									   <ul>
-										  <li><a href="https://t.me/p3t_en"><i class="fas fa-bullhorn"></i> <i class="fab fa-telegram"></i> P3T</a></li>
-										  <li><a href="https://discordapp.com/invite/tx6k4tX" target="_blank"><i class="fab fa-discord"></i> Discord server</a></li>
-										  <li>© 2018 12HourTeam. All Rights Reserved. </li>
-									   </ul>
-									</div>
+                           <a href="/" class="b-footer-logo"><img src="./assets/logo-footer.png" alt=""></a>
+                           <div class="b-social">
+                              <ul>
+                                <li style="color:#fff">© 2019 12HourTeam. All Rights Reserved. </li>
+                              </ul>
+                           </div>
                               </div>
+                              <div class="b-footer-right">
+                                  <!-- <a href="https://t.me/p3t_en" style="color: #fff;text-decoration: none;margin-right: 10px;">P3T Network</a> -->
+                                  <a href="https://discordapp.com/invite/tx6k4tX" target="_blank" style="color: #fff;text-decoration: none;"> Discord</a>
+                              </div>   
                            </div>
                         </div>
                      </footer>

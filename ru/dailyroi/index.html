@@ -95,22 +95,21 @@
                      <div class="b-content">
                         <div class="wrapper-content">
 							<div class="b-content-row">
-								<div class="text-head"">
+								<div class="text-head">
 									<h1 style="color: white;">Получите 3,33% от инвестиций<br/>Каждые 24 часа. Навсегда</h1>
 									<p style="color: white">Автономный умный контракт TRON. Абсолютная прозрачность. Снятие дивидендов с первой минуты </p>
 								</div>
 							</div>
 							<div class="b-content-row">
 								<div class="b-calc-item ">
+									<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
 									<div class="b-block-title"><span>Ваш реферер: <span id="your-inviter"></span></span></div>
-									<div class="b-block-title"><span>Ваши инвестиции</span></div>
+									<div class="b-calc-item__block__left" style="width: 100%;"><span>Ваши инвестиции</span></div>
 									<div class="b-calc-item__row" style="margin-bottom: 10px;">
-									   <div class="b-calc-item__row__left">
-										  <span><div id="your-invest" style="display: inline">0</div><sup>TRX</sup></span>
-									   </div>
+										<div class="b-block-title-2"><span class="text"><span id="your-invest" style="font-size: 18px;font-weight: 700;">0</span><span class="" style="float: right;color:red;font-weight: 400">TRX</span></div>
 									</div>
 									<div class="b-calc-item__block">
-										<div class="b-calc-item__block__left" style="width: 100%;"><span> Введите сумму инвестиций </span> </div>
+										<div class="b-calc-item__block__left" style="width: 100%;"><span>Введите сумму инвестиций</span></div>
 									</div>
 									<div class="b-calc-item__block">
 										<div class="b-calc-item__block__right">
@@ -118,73 +117,84 @@
 										  <input type="text" class="b-calc-item__input invest-input" value="0">
 									   </div>
 									</div>
-									<div class="b-calc-item__bottom" style="margin-top: 42px;"><button class="btn-calc btn-buy invest-button">Инвестировать</button></div>
+									<div class="b-calc-item__bottom" style="margin-top: 42px;"><button class="btn-calc btn-sell invest-button">Инвестировать</button></div>
 								</div>
-								<div class="b-calc-item">
+								<div class="b-calc-item" style="position: relative;">
+									<img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
 								   <div class="b-block-title"><span>Ваши реферальные вознаграждения</span></div>
 								   <div class="b-calc-item__row">
-									  <div class="b-calc-item__row__left">
-										  <span><div id="your-ref" style="display: inline">0</div> <sup>TRX</sup></span>
-									  </div>
+							   			<div class="b-block-title-2"><span class="text">
+							   				<span id="your-ref" style="font-size: 18px;font-weight: 700;">0</span>
+							   				<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+							   			</div>
 								   </div>
-								   <div class="b-block-title"><span>Ваши дивиденды (включая реферальные вознаграждения)</span></div>
+								   <div class="b-calc-item__block__left" style="width: 100%;"><span>Ваши дивиденды (включая реферальные вознаграждения)</span></div>
 								   <div class="b-calc-item__row">
-									  <div class="b-calc-item__row__left">
-										  <span><div id="your-dividends" style="display: inline">0</div> <sup>TRX</sup></span>
-									  </div>
+									   	<div class="b-block-title-2"><span class="text">
+							   				<span id="your-dividends" style="font-size: 18px;font-weight: 700;">0</span>
+							   				<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+							   			</div>
 								   </div>
-								   <div class="b-calc-item__row">
+								   <div class="b-calc-item__block__left" style="width: 100%;"><span>Дивиденды обновляются каждую минуту. Вы можете снимать их каждую минуту. Минимальный депозит 1 TRX.</span></div>
+								   <!-- <div class="b-calc-item__row">
 									   <p style="color: white;">
-											Дивиденды обновляются каждую минуту. Вы можете снимать их каждую минуту. Минимальный депозит 1 TRX.
+										   Dividends updates every minute. You can withdraw them even every minute. Minimum deposit is 1 TRX.
 									   </p>
-								   </div>
-								   <div class="b-calc-item__bottom" style="margin-top: 37px;"><button class="btn-calc btn-buy withdraw-button">Вывести</button></div>
+								   </div> -->
+								   <div class="b-calc-item__bottom" style="margin-top: 27px;"><button class="btn-calc btn-buy withdraw-button">Вывести</button></div>
 								</div>
 							</div>
-							<div class="b-content-row">
-							   <div class="b-info b-info-two">
-								  <div class="b-info-top">
-									 <div class="b-info-title"><span>Реферальная активность</span></div>
-									 <div class="b-info-row" style="margin-bottom: 2px;"><span>Ваша реферальная ссылка:</span><input id="ref-url" class="form-control" value="" readonly=""></div>
-									 <div style="font-size: 14px;">5% - партнерское вознаграждение. Чтобы активировать реферальную ссылку, вам необходимо инвестировать не менее 1TRX в ежедневный ROI.</div>
-								  </div>
+							<div class="b-content-row token-network">
+							   <div class="b-info b-info-two" style="display: block;">
+							   	<div class="b-info-top" style="">
+                                 <img src="./assets/tick-half-3.png" style="position: absolute;left: 0;top: 17px;">
+                                  <div class="b-info-title"><span>Реферальная активность</span></div>
+                                  <span style="font-size: 13px;font-weight: 600;">Ваша реферальная ссылка:</span>
+                                  <div class="b-info-row" style="margin-bottom: 2px;position: relative;">
+                                    <input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
+                                  <!--      <button style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button> -->
+                                  </div>
+                                  <div style="font-size: 13px;color: #888888;font-weight: 500;">5% - партнерское вознаграждение. Чтобы активировать реферальную ссылку, вам необходимо инвестировать не менее 1TRX в ежедневный ROI. </div>
+                                </div>
+                                <div class="img" style="width: 50%;float: right;">
+                                 <img src="./assets/referral-img.png" style="width: 39%;margin:0 auto">
+                                </div>
 							   </div>
 							</div>
-                           
-							<div class="b-content-row">
-								<div class="b-info b-info-two">
-									<div class="b-col-title"><span>Как это устроено?</span></div>
-									<div class="b-desc-content">
-									   <div class="b-desc">
-										   <div class="b-desc-title"><span>Смарт-контракт каждые 24 часа добавляет 3,33% от вашего депозита на ваш баланс в качестве дивидендов.</span></div>
-										  <div class="b-desc-item">
-											 <div class="b-desc-item__text">
-												<p>Это означает, что вы будете получать 3,33% ваших инвестиций каждые 24 часа. Более того, это будет продолжаться вечно (пока в контракте есть TRX). Например, через 30 дней контракт вернет 100% от вашего первого депозита.</p>
-											 </div>
-										  </div>
-										  <div class="b-desc-title"><span>Снимите ваши дивиденды в любое время</span></div>
-										  <div class="b-desc-item">
-											 <div class="b-desc-item__text">
-												<p>Просто нажмите кнопку «Вывести» выше и получите свои дивиденды. Дивиденды обновляются каждую минуту. Вы можете снимать их каждую минуту.</p>
-											 </div>
-										  </div>
-										  <div class="b-desc-title"><span>Какая минимальная сумма вклада?</span></div>
-										  <div class="b-desc-item">
-											 <div class="b-desc-item__text">
-												<p>Минимальный депозит 1 TRX. Вы можете дополнительно инвестировать в любое время. Если вы реинвестируете, контракт сначала выплатит вам не снятые ранее дивиденды!</p>
-											 </div>
-										  </div>
-									   </div>
-									</div>
-								</div>
-							</div>
-							<div class="b-content-row">
-								<div class="b-info b-info-two">
+                           <div class="b-content-row">
+								 <div class="b-col" style="padding: 20px">
+                                 <img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
+                                 <div class="b-col-title"><span>Как это устроено?</span></div>
+                                 <div class="b-desc-content">
+                                    <div class="b-desc">
+										<div class="b-desc-title"><span>Смарт-контракт каждые 24 часа добавляет 3,33% от вашего депозита на ваш баланс в качестве дивидендов.</span></div>
+                                       <div class="b-desc-item">
+                                          <div class="b-desc-item__text">
+                                             <p>Это означает, что вы будете получать 3,33% ваших инвестиций каждые 24 часа. Более того, это будет продолжаться вечно (пока в контракте есть TRX). Например, через 30 дней контракт вернет 100% от вашего первого депозита.</p>
+                                          </div>
+                                       </div>
+                                       <div class="b-desc-title"><span>Снимите ваши дивиденды в любое время</span></div>
+                                       <div class="b-desc-item">
+                                          <div class="b-desc-item__text">
+                                             <p>Просто нажмите кнопку «Вывести» выше и получите свои дивиденды. Дивиденды обновляются каждую минуту. Вы можете снимать их каждую минуту.</p>
+                                          </div>
+                                       </div>
+                                       <div class="b-desc-title"><span>Какая минимальная сумма вклада?</span></div>
+                                       <div class="b-desc-item">
+                                          <div class="b-desc-item__text">
+                                             <p>Минимальный депозит 1 TRX. Вы можете дополнительно инвестировать в любое время. Если вы реинвестируете, контракт сначала выплатит вам не снятые ранее дивиденды!</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="b-col" style="padding: 20px;position: relative;">
+                                 <img src="./assets/tick-half-5.png" style="position: absolute;left: 0;top: 17px;">
 									<div class="b-col-title"><span>FAQ</span></div>
 									<div class="b-desc-content" style="width: 100%; height: 215px;">
 										<div class="b-faq" id="accordionExample">
 											<div class="b-faq-item">
-											  <button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false"><span> Могу ли я отправить средства с биржи?</span><i class="fa fa-chevron-down"></i></button>
+											  <button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false"><span>  Могу ли я отправить средства с биржи?</span><i class="fa fa-chevron-down"></i></button>
 											  <div class="b-faq-item__content collapse show" id="collapse20" data-parent="#accordionExample" style="">
 												 <div class="b-faq-item__content__wrap">
 													<p>Вы потеряете свои средства. Не используйте биржи. Используйте только свой личный кошелек!</p>
@@ -210,23 +220,25 @@
 
 									   </div>
 									</div>
-								</div>
-							</div>
+                              </div>
+                           </div>
                         </div>
                      </div>
-                     <footer class="b-footer">
+                      <footer class="b-footer">
                         <div class="wrapper-content">
                            <div class="b-footer-content">
                               <div class="b-footer-left">
-									<a href="/" class="b-footer-logo"><img src="./assets/tron-logo-black-and-white.png" alt=""></a>
-									<div class="b-social">
-									   <ul>
-										  <li><a href="https://t.me/p3t_en"><i class="fas fa-bullhorn"></i> <i class="fab fa-telegram"></i> P3T</a></li>
-										  <li><a href="https://discordapp.com/invite/tx6k4tX" target="_blank"><i class="fab fa-discord"></i> Сервер Discord</a></li>
-										  <li>© 2018 12HourTeam. Все Права Защищены. </li>
-									   </ul>
-									</div>
+                           <a href="/" class="b-footer-logo"><img src="./assets/logo-footer.png" alt=""></a>
+                           <div class="b-social">
+                              <ul>
+                                <li style="color:#fff">© 2019 12HourTeam. Все Права Защищены. </li>
+                              </ul>
+                           </div>
                               </div>
+                              <div class="b-footer-right">
+                                  <!-- <a href="https://t.me/p3t_en" style="color: #fff;text-decoration: none;margin-right: 10px;">P3T Network</a> -->
+                                  <a href="https://discordapp.com/invite/tx6k4tX" target="_blank" style="color: #fff;text-decoration: none;"> Discord</a>
+                              </div>   
                            </div>
                         </div>
                      </footer>

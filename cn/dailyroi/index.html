@@ -126,20 +126,19 @@
                      </header>
                      <div class="b-content">
                         <div class="wrapper-content">
-							<div class="b-content-row">
-								<div class="text-head" >
+                        	<div class="b-content-row">
+								<div class="text-head">
 									<h1 style="color: white;">每二十四小時便獲得投資額 <br/>3.33 %。永遠地。</h1>
-									<p style="color: white">自動的 TRON 智能合約。絕對透明。首一分鐘開始已可提取分紅。</p>
+									<p style="color: white">自動的 TRON 智能合約。絕對透明。首一分鐘開始已可提取分紅。 </p>
 								</div>
 							</div>
 							<div class="b-content-row">
 								<div class="b-calc-item ">
-									<div class="b-block-title" style="display: none"><span>Your referrer: <span id="your-inviter"></span></span></div>
-									<div class="b-block-title"><span>您的投資餘額</span></div>
+									<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
+									<div class="b-block-title"><span>您的投資餘額: <span id="your-inviter"></span></span></div>
+									<div class="b-calc-item__block__left" style="width: 100%;"><span>Your investments</span></div>
 									<div class="b-calc-item__row" style="margin-bottom: 10px;">
-									   <div class="b-calc-item__row__left">
-										  <span><div id="your-invest" style="display: inline">0</div><sup>TRX</sup></span>
-									   </div>
+										<div class="b-block-title-2"><span class="text"><span id="your-invest" style="font-size: 18px;font-weight: 700;">0</span><span class="" style="float: right;color:red;font-weight: 400">TRX</span></div>
 									</div>
 									<div class="b-calc-item__block">
 										<div class="b-calc-item__block__left" style="width: 100%;"><span>輸入投資金額</span></div>
@@ -150,73 +149,84 @@
 										  <input type="text" class="b-calc-item__input invest-input" value="0">
 									   </div>
 									</div>
-									<div class="b-calc-item__bottom" style="margin-top: 42px;"><button class="btn-calc btn-buy invest-button">投資</button></div>
+									<div class="b-calc-item__bottom" style="margin-top: 42px;"><button class="btn-calc btn-sell invest-button">投資</button></div>
 								</div>
-								<div class="b-calc-item">
+								<div class="b-calc-item" style="position: relative;">
+									<img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
 								   <div class="b-block-title"><span>你的推薦獎勵</span></div>
 								   <div class="b-calc-item__row">
-									  <div class="b-calc-item__row__left">
-										  <span><div id="your-ref" style="display: inline">0</div> <sup>TRX</sup></span>
-									  </div>
+							   			<div class="b-block-title-2"><span class="text">
+							   				<span id="your-ref" style="font-size: 18px;font-weight: 700;">0</span>
+							   				<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+							   			</div>
 								   </div>
-								   <div class="b-block-title"><span>您的紅利餘額 （ 已包括推薦獎勵）</span></div>
+								   <div class="b-calc-item__block__left" style="width: 100%;"><span>您的紅利餘額 （ 已包括推薦獎勵）</span></div>
 								   <div class="b-calc-item__row">
-									  <div class="b-calc-item__row__left">
-										  <span><div id="your-dividends" style="display: inline">0</div> <sup>TRX</sup></span>
-									  </div>
+									   	<div class="b-block-title-2"><span class="text">
+							   				<span id="your-dividends" style="font-size: 18px;font-weight: 700;">0</span>
+							   				<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+							   			</div>
 								   </div>
-								   <div class="b-calc-item__row">
+								   <div class="b-calc-item__block__left" style="width: 100%;"><span>紅利每分鐘更新。 您可隨時提領紅利，甚至每分鐘提領一次。 最少的存款限額 1 TRX。</span></div>
+								   <!-- <div class="b-calc-item__row">
 									   <p style="color: white;">
-										   紅利每分鐘更新。 您可隨時提領紅利，甚至每分鐘提領一次。 最少的存款限額 1 TRX。
+										   Dividends updates every minute. You can withdraw them even every minute. Minimum deposit is 1 TRX.
 									   </p>
-								   </div>
-								   <div class="b-calc-item__bottom" style="margin-top: 3px;"><button class="btn-calc btn-buy withdraw-button">提取</button></div>
+								   </div> -->
+								   <div class="b-calc-item__bottom" style="margin-top: 27px;"><button class="btn-calc btn-buy withdraw-button">提取</button></div>
 								</div>
 							</div>
-							<div class="b-content-row">
-							   <div class="b-info b-info-two">
-								  <div class="b-info-top">
-									 <div class="b-info-title"><span>推薦活動</span></div>
-									 <div class="b-info-row" style="margin-bottom: 2px;"><span>您的推薦連結:</span><input id="ref-url" class="form-control" value="" readonly=""></div>
-									 <div style="font-size: 14px;">推薦獎勵是 5% 。你需要至少1個TRX來激活每天投資回報率的推薦鏈接</div>
-								  </div>
+							<div class="b-content-row token-network">
+							   <div class="b-info b-info-two" style="display: block;">
+							   	<div class="b-info-top" style="">
+                                 <img src="./assets/tick-half-3.png" style="position: absolute;left: 0;top: 17px;">
+                                  <div class="b-info-title"><span>推薦活動</span></div>
+                                  <span style="font-size: 13px;font-weight: 600;">您的推薦連結:</span>
+                                  <div class="b-info-row" style="margin-bottom: 2px;position: relative;">
+                                    <input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
+                                  <!--      <button style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button> -->
+                                  </div>
+                                  <div style="font-size: 13px;color: #888888;font-weight: 500;">推薦獎勵是 5% 。你需要至少1個TRX來激活每天投資回報率的推薦鏈接</div>
+                                </div>
+                                <div class="img" style="width: 50%;float: right;">
+                                 <img src="./assets/referral-img.png" style="width: 39%;margin:0 auto">
+                                </div>
 							   </div>
 							</div>
-                           
 							<div class="b-content-row">
-								<div class="b-info b-info-two">
-									<div class="b-col-title"><span>它是如何運作？</span></div>
-									<div class="b-desc-content">
-									   <div class="b-desc">
-										   <div class="b-desc-title"><span>每 24 小時智能合約會將您存款金額的 3.33％作為紅利，並儲到您的紅利餘額中</span></div>
-										  <div class="b-desc-item">
-											 <div class="b-desc-item__text">
-												<p>意思就是每 24 小時您便會收到所投資金額的 3.33%作為紅利。而且還會不斷運行下去 ( 只要智能合約中還有 TRX )。例子就是在 30 日的合約中，您會獲得 100 %</p>
-											 </div>
-										  </div>
-										  <div class="b-desc-title"><span>隨時都可提取您的紅利  </span></div>
-										  <div class="b-desc-item">
-											 <div class="b-desc-item__text">
-												<p>只要在下方點擊＂提取＂便可以領取您的紅利。紅利餘額會每分鐘更新。您可以隨時提取，甚至每分鐘提取一次。</p>
-											 </div>
-										  </div>
-										  <div class="b-desc-title"><span>最少的存款限額是多少？</span></div>
-										  <div class="b-desc-item">
-											 <div class="b-desc-item__text">
-												<p>最少的存款限額為 1 TRX。您亦可以隨時增加投資額。如果您進行複投，智能合約會先付給您並未領取的紅利。</p>
-											 </div>
-										  </div>
-									   </div>
-									</div>
-								</div>
-							</div>
-							<div class="b-content-row">
-								<div class="b-info b-info-two">
-									<div class="b-col-title"><span>FAQ</span></div>
+								 <div class="b-col" style="padding: 20px">
+                                 <img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
+                                 <div class="b-col-title"><span>它是如何運作？</span></div>
+                                 <div class="b-desc-content">
+                                    <div class="b-desc">
+										<div class="b-desc-title"><span>每 24 小時智能合約會將您存款金額的 3.33％作為紅利，並儲到您的紅利餘額中</span></div>
+                                       <div class="b-desc-item">
+                                          <div class="b-desc-item__text">
+                                             <p>意思就是每 24 小時您便會收到所投資金額的 3.33%作為紅利。而且還會不斷運行下去 ( 只要智能合約中還有 TRX )。例子就是在 30 日的合約中，您會獲得 100 %</p>
+                                          </div>
+                                       </div>
+                                       <div class="b-desc-title"><span>隨時都可提取您的紅利</span></div>
+                                       <div class="b-desc-item">
+                                          <div class="b-desc-item__text">
+                                             <p>只要在下方點擊＂提取＂便可以領取您的紅利。紅利餘額會每分鐘更新。您可以隨時提取，甚至每分鐘提取一次。</p>
+                                          </div>
+                                       </div>
+                                       <div class="b-desc-title"><span>最少的存款限額是多少？</span></div>
+                                       <div class="b-desc-item">
+                                          <div class="b-desc-item__text">
+                                             <p>最少的存款限額為 1 TRX。您亦可以隨時增加投資額。如果您進行複投，智能合約會先付給您並未領取的紅利。</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="b-col" style="padding: 20px;position: relative;">
+                                 <img src="./assets/tick-half-5.png" style="position: absolute;left: 0;top: 17px;">
+									<div class="b-col-title"><span>常見問題</span></div>
 									<div class="b-desc-content" style="width: 100%; height: 215px;">
 										<div class="b-faq" id="accordionExample">
 											<div class="b-faq-item">
-											  <button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false"><span> 我可以從交易所發送資金嗎？</span><i class="fa fa-chevron-down"></i></button>
+											  <button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false"><span>  我可以從交易所發送資金嗎？</span><i class="fa fa-chevron-down"></i></button>
 											  <div class="b-faq-item__content collapse show" id="collapse20" data-parent="#accordionExample" style="">
 												 <div class="b-faq-item__content__wrap">
 													<p>您會失去您的所有資金。千萬不要用交易所。只可使用您的個人錢包。</p>
@@ -235,31 +245,31 @@
 											  <button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>如果合同持有者消失，會發生什麼？</span><i class="fa fa-chevron-down"></i></button>
 											  <div class="b-faq-item__content collapse" id="collapse1" data-parent="#accordionExample" style="">
 												 <div class="b-faq-item__content__wrap">
-													<p>其實不會有任何事發生！智能合約會保護所有結餘。它亦會繼續每天付錢給你。因為它是獨立
-														於任何人或任何事，自行運作的。</p>
+													<p>其實不會有任何事發生！智能合約會保護所有結餘。它亦會繼續每天付錢給你。因為它是獨立 於任何人或任何事，自行運作的。</p>
 												 </div>
 											  </div>
 										   </div>
 
 									   </div>
 									</div>
-								</div>
-							</div>
+                              </div>
                         </div>
                      </div>
                      <footer class="b-footer">
                         <div class="wrapper-content">
                            <div class="b-footer-content">
                               <div class="b-footer-left">
-									<a href="/" class="b-footer-logo"><img src="./assets/tron-logo-black-and-white.png" alt=""></a>
-									<div class="b-social">
-									   <ul>
-										  <li><a href="https://t.me/p3t_en"><i class="fas fa-bullhorn"></i> <i class="fab fa-telegram"></i> P3T</a></li>
-										  <li><a href="https://discordapp.com/invite/tx6k4tX" target="_blank"><i class="fab fa-discord"></i> Discord server</a></li>
-										  <li>© 2018 12HourTeam. All Rights Reserved. </li>
-									   </ul>
-									</div>
+                           <a href="/" class="b-footer-logo"><img src="./assets/logo-footer.png" alt=""></a>
+                           <div class="b-social">
+                              <ul>
+                                <li style="color:#fff">© 2019 12HourTeam. All Rights Reserved. </li>
+                              </ul>
+                           </div>
                               </div>
+                              <div class="b-footer-right">
+                                  <!-- <a href="https://t.me/p3t_en" style="color: #fff;text-decoration: none;margin-right: 10px;">P3T Network</a> -->
+                                  <a href="https://discordapp.com/invite/tx6k4tX" target="_blank" style="color: #fff;text-decoration: none;"> Discord</a>
+                              </div>   
                            </div>
                         </div>
                      </footer>

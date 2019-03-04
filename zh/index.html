@@ -87,57 +87,99 @@
                         <div class="wrapper-content">
                            <div class="b-content-row">
                               <div class="b-block ">
+                                 <img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
                                  <div class="b-block-title"><span>代币余额</span></div>
-                                 <div class="b-block-balance"><b><span class="user-token-balance">0.00000000</span><sup>P3T</sup></b></div>
-                                 <div class="b-eth"><span><span id="user-trx-balance">0.00000000</span><sup>TRX</sup></span></div>
-                                 <div class="b-block-price"><span>代币余额总价值</span></div>
-                                 <div class="b-block-price b-block-price-f"><b>≈<div id="user-usd-balance" style="display: inline">0.00</div><sup>USD</sup></b></div>
+                                 <div class="player-info" style="width: 100%;">
+                                    <div>
+                                       <div class="b-calc-item__block__left" style="width: 126px"><span>你当前的余额</span></div>
+                                       <div class="b-block-title-2"><span class="text"><span class="user-token-balance" style="font-size: 18px;font-weight: 700;">0.00000000</span></span> <span class="" style="float: right;color:red;font-weight: 700">P3T</span></div>
+                                    </div>
+                                    <div>
+                                       <div class="b-calc-item__block__left"><span>等效TRX</span></div>                                
+                                       <div class="b-block-title-2"><span class="text"><span id="user-trx-balance" style="font-size: 18px;font-weight: 700;">0.00000000</span></span> <span class="" style="float: right;color:red;font-weight: 700">TRX</span></div>
+                                    </div>
+                                    <p style="font-size: 14px;font-weight: 500;color: #888888;">代币余额总价值 ≈ <span id="user-usd-balance">0.00</span> USD</p>
+                                 </div> 
+                                 <!-- <div class="b-block-price"><span>The cost of tokens</span></div>
+                                 <div class="b-block-price b-block-price-f"><b>≈<div id="user-usd-balance" style="display: inline">0.00</div><sup>USD</sup></b></div> -->
                               </div>
-                              <div class="b-block ">
-                                 <div class="b-block-title"><span>储蓄户口</span></div>
-                                 <div class="b-block-balance"><b><span class="user-dividends">0.00000000</span><sup>TRX</sup></b></div>
+                              <div class="b-block " style="position: relative;">
+                                 <img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
+                                 <div class="b-block-title"><span>您的储蓄</span></div>
+                                 <div class="player-info" style="width: 100%;">
+                                    <div class="withdraw" style=" ">
+                                       <div class="b-calc-item__block__left" style="width: 140px"><span>可提取储蓄</span></div>
+                                       <div class="b-block-title-2"><span class="text"><span class="user-dividends" style="font-size: 18px;font-weight: 700;">0.00000000</span></span> <span class="" style="float: right;color:red;font-weight: 700">TRX</span></div>
+                                    </div>
+                                    <div class="equivalent" style="">
+                                       <div class="b-calc-item__block__left"><span>等值美元</span></div>
+                                       <div class="b-block-title-2"><span class="text"><span id="user-dividends-usd" style="font-size: 18px;font-weight: 700;">0.00000000</span></span> <span class="" style="float: right;color:red;font-weight: 700">USD</span></div>
+                                    </div>
+                                    <p style="font-size: 14px;font-weight: 500;color: #888888;">复投 ≈ <span id="user-reinvest">0.00</span> P3T</p>
+                                    <div class="b-block-btns"><button class="b-block-btn btn-reinvest">复投</button><button class="b-block-btn btn-withdraw">提取</button></div>
+                                 </div> 
+                                 <!-- <div class="b-block-balance"><b><span class="user-dividends">0.00000000</span><sup>TRX</sup></b></div>
                                  <div class="b-eth"><span><div id="user-dividends-usd" style="display: inline">0.00</div><sup>USD</sup></span></div>
-                                 <div class="b-block-price"><span>双掷 ≈<div id="user-reinvest" style="display: inline">0.00</div> P3T</span></div>
-                                 <div class="b-block-btns"><button class="b-block-btn btn-reinvest">双掷</button><button class="b-block-btn btn-withdraw">提取</button></div>
-                              </div>
+                                 <div class="b-block-price"><span>Reinvest ≈<div id="user-reinvest" style="display: inline">0.00</div> P3T</span></div> -->
+                                 
+                              </div> 
                            </div>
-                           <div class="b-content-row">
-                              <div class="b-block b-block b-block-white ">
+                           <div class="b-content-row token-network">
+                              <div class="b-block b-block b-block-white " style="display: block;">
+                                 <img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
                                  <div class="b-block-title"><span>代币网络状态</span></div>
-                                 <div class="b-item">
-                                    <div class="b-item__img">
-										<img style="width: 50%" src="./assets/tron_logo.png" alt="">
-									</div>
-                                    <div class="b-item__text">
-                                       <div class="b-item__text__top"><b><div style="display: inline" id="contract-trx-balance">0</div><sup>TRX</sup></b><span style="white-space: nowrap;">在合约中</span></div>
-                                       <p>TRX 兑 P3T 代币总量</p>
+                                  <div class="list-item" style="">
+                                    <div class="b-item" style="display: block;margin: 0">
+                                       <div class="b-block-title-2">
+                                          <span class="text">
+                                             <div style="display: inline" id="contract-trx-balance">0</div>
+                                          </span>
+                                          <span class="" style="float: right;color:red">P3T</span>
+                                       </div>
+                                       <span class="note" style="">TRX 兑 P3T 代币总量</span>
                                     </div>
-                                 </div>
-                                 <div class="b-item">
-									 <div class="b-item__img" style="text-align: center;">
-										<img src="./assets/p3t_logo2.png" alt="" style="max-width: 35px; height: auto;">
-									</div>
-                                    <div class="b-item__text">
-                                       <div class="b-item__text__top"><b><div style="display: inline" id="contract-token-balance">0</div><sup>P3T</sup></b></div>
-                                       <p>P3T 代币总量</p>
+                                    <div class="b-item" style="display: block;">
+                                       <div class="b-block-title-2">
+                                          <span class="text">
+                                             <div style="display: inline" id="contract-token-balance">0</div>
+                                          </span>
+                                          <span class="" style="float: right;color:red">TRX</span>
+                                       </div>
+                                       <span class="note">P3T 代币总量</span>
                                     </div>
+                                      <button class="btn-block"><a href="https://tronscan.org/#/contract/TEEEQGmbZoeHA24EVG91b6u9zsbWUfefPF" target="_blank" style="color: white;">查阅 TRONSCAN</a></button>
                                  </div>
-                                 <button class="btn-block"><a href="https://tronscan.org/#/contract/TEEEQGmbZoeHA24EVG91b6u9zsbWUfefPF" target="_blank" style="color: white;">查阅 TRONSCAN</a></button>
-                              </div>
-                              
+                                 <div class="img" style="width: 50%;float: right;">
+                                    <img src="./assets/token-img.png" style="width: 55%;margin: 0 auto;">
+                                 </div>
+                               
+                              </div>      
                            </div>
                            <div class="b-content-row">
                               <div class="b-calc-item ">
+                                 <img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
                                  <div class="b-block-title"><span>买入 P3T</span></div>
-                                 <div class="b-calc-item__row">
-                                    <div class="b-calc-item__row__left">
-                                       <p>价格:</p>
-                                       <span>1<sup>P3T</sup> = <div id="rate-to-buy" style="display: inline">0</div><sup>TRX</sup></span>
+                                 <div class="round-time">
+                                    <div class="" style="width: 100%;text-align: center;">
+                                       <div class="clearfix price-available" style="">
+                                       <!-- <h3 style="color: white"><span class="grand-jackpotowner"></span></h3> -->
+                                       <div class="clearfix prices" style="">
+                                             <div class="infor" style="margin-top: 8px;font-weight: 700;">
+                                                <img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
+                                                <span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;">价格</span>
+                                                <div class="price" style="width: 100%;float: left">
+                                                   <span class="" style="color: #333333;font-size: 20px">1 P3T = <div id="rate-to-buy" style="display: inline">0</div> TRX</span><!-- <span style="color:red;font-weight: 600;font-size: 20px;margin-left: 10px;">TRX</span> -->
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="clearfix available" style="">
+                                             <img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
+                                             <span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width: 91%;float: left;">Available</span>
+                                             <span class="" style="color: #333333;font-size: 20px;font-weight: 600;"><span id="user-wallet-balance">0</span> TRX</span>
+                                          </div>
+                                       </div>
                                     </div>
-                                 </div>
-                                 <div class="b-calc-item__row">
-                                    <div class="b-calc-item__row__right"><span>Available: <span id="user-wallet-balance">0</span> TRX</span></div>
-                                 </div>
+                                </div>
                                  <div class="b-calc-item__block">
                                     <div class="b-calc-item__block__left"><span>您给予</span></div>
                                     <div class="b-calc-item__block__right">
@@ -146,29 +188,42 @@
                                     </div>
                                  </div>
                                  <div class="b-calc-item__block">
-                                    <div class="b-calc-item__block__left"><span>您获得</span></div>
+                                    <div class="b-calc-item__block__left"><span>您获得t</span></div>
                                     <div class="b-calc-item__block__right">
                                        <div class="b-calc-item__block__content"><span>P3T</span></div>
-                                       <input type="text" class="b-calc-item__input token-input-buy" readonly="" value="0.00000000">
+                                       <input type="text" class="b-calc-item__input token-input-buy" readonly="" value="0.00000000" style="background:#f3f3f3">
                                     </div>
                                  </div>
                                  <div class="b-calc-item__bottom"><button class="btn-calc btn-buy buy-token-button">买入</button></div>
                               </div>
-                              <div class="b-calc-item ">
+                              <div class="b-calc-item " style="position: relative;">
+                                 <img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
                                  <div class="b-block-title"><span>卖出 P3T</span></div>
-                                 <div class="b-calc-item__row">
-                                    <div class="b-calc-item__row__left">
-                                       <p>价格:</p>
-                                       <span>1<sup>P3T</sup> = <div id="rate-to-sell" style="display: inline">0</div> <sup>TRX</sup></span>
+                                  <div class="round-time">
+                                    <div class="" style="width: 100%;text-align: center;">
+                                       <div class="clearfix price-available" style="">
+                                       <!-- <h3 style="color: white"><span class="grand-jackpotowner"></span></h3> -->
+                                       <div class="clearfix prices" style="">
+                                             <div class="infor" style="margin-top: 8px;font-weight: 700;">
+                                                <img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
+                                                <span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width:60%;float: left;">价格</span>
+                                                <div class="price" style="width: 100%;float: left">
+                                                   <span class="" style="color: #333333;font-size: 20px">1 P3T = <div id="rate-to-sell" style="display: inline">0</div> TRX</span><!-- <span style="color:red;font-weight: 600;font-size: 20px;margin-left: 10px;">TRX</span> -->
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="clearfix available" style="">
+                                             <img src="./assets/tick-2.png" style="float: left; margin-top: 5px;margin-right: 5px;">
+                                             <span class="text" style="color: #888888;font-size: 13px;opacity: 0.6;font-weight: 600;width: 91%;float: left;">Available</span>
+                                             <span class="" style="color: #333333;font-size: 20px;font-weight: 600;"><span class="user-token-balance">0.00000000</span> P3T</span>
+                                          </div>
+                                       </div>
                                     </div>
-                                 </div>
-                                 <div class="b-calc-item__row">
-                                    <div class="b-calc-item__row__right"><span>Available: <span class="user-token-balance">0.00000000</span> P3T</span></div>
-                                 </div>
+                                </div>
                                  <div class="b-calc-item__block">
                                     <div class="b-calc-item__block__left"><span>您给予</span></div>
                                     <div class="b-calc-item__block__right">
-                                       <div class="b-calc-item__block__content"><button class="btn-max">最大</button><span>P3T</span></div>
+                                       <div class="b-calc-item__block__content"><!--<button class="btn-max">MAX</button> --><span>P3T</span></div>
                                        <input type="text" class="b-calc-item__input sell-input" value="0">
                                     </div>
                                  </div>
@@ -182,19 +237,34 @@
                                  <div class="b-calc-item__bottom"><button class="btn-calc btn-sell sell-token-button">卖出</button></div>
                               </div>
                            </div>
-                           <div class="b-content-row">
-                              <div class="b-info b-info-two">
+                           <div class="b-content-row token-network">
+                             <!--  <div class="b-info b-info-two">
                                  <div class="b-info-top">
-                                    <div class="b-info-title"><span>推荐活动</span></div>
-                                    <div class="b-info-row" style="margin-bottom: 2px;"><span>您的推荐连结：</span><input id="ref-url" class="form-control" value="" readonly=""></div>
-                                    <div style="font-size: 14px;">被推荐人买入总额的 10 % 当中的 33 % 会给予推荐人。</div>
+                                    <div class="b-info-title"><span>Referrals activity</span></div>
+                                    <div class="b-info-row" style="margin-bottom: 2px;"><span>Your referral link:</span><input id="ref-url" class="form-control" value="" readonly=""></div>
+                                    <div style="font-size: 14px;">33% of the 10% purchase fee is commissioned to the referrer. You need have 50 P3T to active your masternode.</div>
                                  </div>
+                              </div> -->
+                               <div class="b-info b-info-two" style="padding: 20px;display: block">
+                                <div class="b-info-top" style="">
+                                 <img src="./assets/tick-half-3.png" style="position: absolute;left: 0;top: 17px;">
+                                  <div class="b-info-title"><span>推荐活动</span></div>
+                                  <span style="font-size: 13px;font-weight: 600;">您的推荐连结:</span>
+                                  <div class="b-info-row" style="margin-bottom: 2px;position: relative;">
+                                    <input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
+                                  <!--      <button style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button> -->
+                                  </div>
+                                  <div style="font-size: 13px;color: #888888;font-weight: 500;">被推荐人买入总额的 10 % 当中的 33 % 会给予推荐人。</div>
+                                </div>
+                                <div class="img" style="width: 50%;float: right;">
+                                 <img src="./assets/referral-img.png" style="width: 39%;margin:0 auto">
+                                </div>
                               </div>
                            </div>
-                           
                            <div class="b-content-row">
-                              <div class="b-col">
-                                 <div class="b-col-title"><span>P3T 代币运作模式</span></div>
+                              <div class="b-col" style="padding: 20px">
+                                 <img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
+                                 <div class="b-col-title"><span>Concept of P3T token</span></div>
                                  <div class="b-desc-content">
                                     <div class="b-desc">
 										<div class="b-desc-title"><span>1. 您如何获利？</span></div>
@@ -227,8 +297,9 @@
                                     </div>
                                  </div>
                               </div>
-                              <div class="b-col">
-                                 <div class="b-col-title"><span>常见问题</span></div>
+                              <div class="b-col" style="padding: 20px;position: relative;">
+                                 <img src="./assets/tick-half-5.png" style="position: absolute;left: 0;top: 17px;">
+                                 <div class="b-col-title"><span>FAQ</span></div>
                                  <div class="b-desc-content">
                                     <div class="b-faq" id="accordionExample">
 										<div class="b-faq-item">
@@ -279,15 +350,17 @@
                         <div class="wrapper-content">
                            <div class="b-footer-content">
                               <div class="b-footer-left">
-                                 <a href="/" class="b-footer-logo"><img src="./assets/tron-logo-black-and-white.png" alt=""></a>
-                                 <div class="b-social">
-                                    <ul>
-									   <li><a href="https://t.me/p3t_en"><i class="fas fa-bullhorn"></i> <i class="fab fa-telegram"></i> P3T</a></li>
-                                       <li><a href="https://discordapp.com/invite/tx6k4tX" target="_blank"><i class="fab fa-discord"></i> Discord server</a></li>
-									   <li>© 2018 12HourTeam. All Rights Reserved. </li>
-                                    </ul>
-                                 </div>
+                           <a href="/" class="b-footer-logo"><img src="./assets/logo-footer.png" alt=""></a>
+                           <div class="b-social">
+                              <ul>
+                                <li style="color:#fff">© 2019 12HourTeam. All Rights Reserved. </li>
+                              </ul>
+                           </div>
                               </div>
+                              <div class="b-footer-right">
+                                  <!-- <a href="https://t.me/p3t_en" style="color: #fff;text-decoration: none;margin-right: 10px;">P3T Network</a> -->
+                                  <a href="https://discordapp.com/invite/tx6k4tX" target="_blank" style="color: #fff;text-decoration: none;"> Discord</a>
+                              </div>   
                            </div>
                         </div>
                      </footer>
