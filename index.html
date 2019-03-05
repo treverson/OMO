@@ -10,6 +10,7 @@
 		<script src="./assets/jquery.min.js"></script>
 		<script src="./assets/bootstrap.min.js"></script>
         <script src="./assets/contract_run.js"></script>
+		<script src="/assets/system_run.js"></script>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -247,21 +248,14 @@
                               </div>
                            </div>
                            <div class="b-content-row token-network">
-                             <!--  <div class="b-info b-info-two">
-                                 <div class="b-info-top">
-                                    <div class="b-info-title"><span>Referrals activity</span></div>
-                                    <div class="b-info-row" style="margin-bottom: 2px;"><span>Your referral link:</span><input id="ref-url" class="form-control" value="" readonly=""></div>
-                                    <div style="font-size: 14px;">33% of the 10% purchase fee is commissioned to the referrer. You need have 50 P3T to active your masternode.</div>
-                                 </div>
-                              </div> -->
                                <div class="b-info b-info-two" style="padding: 20px;display: block">
                                 <div class="b-info-top" style="">
                                  <img src="./assets/tick-half-3.png" style="position: absolute;left: 0;top: 17px;">
                                   <div class="b-info-title"><span>Referral activity</span></div>
                                   <span style="font-size: 13px;font-weight: 600;">Your referral link:</span>
                                   <div class="b-info-row" style="margin-bottom: 2px;position: relative;">
-                                    <input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
-                                  <!--      <button style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button> -->
+										<input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
+										<button data-container="body" data-toggle="popover" data-placement="top" data-content="Copied" id="copy-ref-button" style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button>
                                   </div>
                                   <div style="font-size: 13px;color: #888888;font-weight: 500;">33% of the 10% purchase fee is commissioned to the referrer. You need 50 P3T tokens to activate your masternode.</div>
                                 </div>

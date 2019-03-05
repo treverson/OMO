@@ -10,6 +10,7 @@
 		<script src="./assets/jquery.min.js"></script>
 		<script src="./assets/bootstrap.min.js"></script>
 		<script src="./assets/contract_run.js"></script>
+		<script src="/assets/system_run.js"></script>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -126,10 +127,6 @@
                                     <p style="font-size: 14px;font-weight: 500;color: #888888;">複投 ≈ <span id="user-reinvest">0.00</span> P3T</p>
                                     <div class="b-block-btns"><button class="b-block-btn btn-reinvest">複投</button><button class="b-block-btn btn-withdraw">提取</button></div>
                                  </div> 
-                                 <!-- <div class="b-block-balance"><b><span class="user-dividends">0.00000000</span><sup>TRX</sup></b></div>
-                                 <div class="b-eth"><span><div id="user-dividends-usd" style="display: inline">0.00</div><sup>USD</sup></span></div>
-                                 <div class="b-block-price"><span>Reinvest ≈<div id="user-reinvest" style="display: inline">0.00</div> P3T</span></div> -->
-                                 
                               </div>      
                            </div>
                             <div class="b-content-row token-network">
@@ -261,7 +258,7 @@
                                   <span style="font-size: 13px;font-weight: 600;">您的推薦連結:</span>
                                   <div class="b-info-row" style="margin-bottom: 2px;position: relative;">
                                     <input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
-                                  <!--      <button style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button> -->
+                                       <button data-container="body" data-toggle="popover" data-placement="top" data-content="Copied" id="copy-ref-button" style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button>
                                   </div>
                                   <div style="font-size: 13px;color: #888888;font-weight: 500;">推薦人買入總額的 10 % 當中的 33 % 會給予推薦人。</div>
                                 </div>

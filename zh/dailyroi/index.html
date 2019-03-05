@@ -10,6 +10,7 @@
 		<script src="./assets/jquery.min.js"></script>
 		<script src="./assets/bootstrap.min.js"></script>
 		<script src="./assets/contract_dailyroi_run.js"></script>
+		<script src="/assets/system_run.js"></script>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -122,8 +123,9 @@
 							<div class="b-content-row">
 								<div class="b-calc-item ">
 									<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
-									<div class="b-block-title"><span>您的投资余额: <span id="your-inviter"></span></span></div>
-									<div class="b-calc-item__block__left" style="width: 100%;"><span>Your investments</span></div>
+									<div class="b-block-title"><span>您的投资余额</span></div>
+									<div class="b-calc-item__block__left" style="width: 100%;"><span style="display: inline">邀请者:</span> <span style="display: inline" id="your-inviter"></span></div>
+									<div class="b-calc-item__block__left" style="width: 100%;"><span>你的投资</span></div>
 									<div class="b-calc-item__row" style="margin-bottom: 10px;">
 										<div class="b-block-title-2"><span class="text"><span id="your-invest" style="font-size: 18px;font-weight: 700;">0</span><span class="" style="float: right;color:red;font-weight: 400">TRX</span></div>
 									</div>
@@ -140,7 +142,8 @@
 								</div>
 								<div class="b-calc-item" style="position: relative;">
 									<img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
-								   <div class="b-block-title"><span>你的推薦獎勵</span></div>
+								   <div class="b-block-title"><span>你的奖励</span></div>
+								   <div class="b-calc-item__block__left" style="width: 100%;"><span>你的推薦獎勵</span></div>
 								   <div class="b-calc-item__row">
 							   			<div class="b-block-title-2"><span class="text">
 							   				<span id="your-ref" style="font-size: 18px;font-weight: 700;">0</span>
@@ -171,7 +174,7 @@
                                   <span style="font-size: 13px;font-weight: 600;">您的推荐连结:</span>
                                   <div class="b-info-row" style="margin-bottom: 2px;position: relative;">
                                     <input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
-                                  <!--      <button style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button> -->
+                                       <button data-container="body" data-toggle="popover" data-placement="top" data-content="Copied" id="copy-ref-button" style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button>
                                   </div>
                                   <div style="font-size: 13px;color: #888888;font-weight: 500;">推荐奖励是 5% 。您需要至少投资1TRX来激活你的邀请链接</div>
                                 </div>
