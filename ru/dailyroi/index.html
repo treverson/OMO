@@ -9,6 +9,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="./assets/jquery.min.js"></script>
 		<script src="./assets/bootstrap.min.js"></script>
+		<script src="/assets/clipboard.min.js"></script>
 		<script src="./assets/contract_dailyroi_run.js"></script>
 		<script src="/assets/system_run.js"></script>
 		<link rel="shortcut icon" href="/favicon.ico">
@@ -154,8 +155,8 @@
                                   <div class="b-info-title"><span>Реферальная активность</span></div>
                                   <span style="font-size: 13px;font-weight: 600;">Ваша реферальная ссылка:</span>
                                   <div class="b-info-row" style="margin-bottom: 2px;position: relative;">
-                                    <input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
-                                       <button data-container="body" data-toggle="popover" data-placement="top" data-content="Copied" id="copy-ref-button" style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button>
+										<input id="ref-url" class="form-control" value="" readonly="" style="box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.13);border-radius: 16px;border: 1px solid #e7e7e7;background-color: #ffffff;padding: 12px 20px;">
+                                       <button data-clipboard-target="#ref-url" data-container="body" data-toggle="popover" data-placement="top" data-content="Copied" id="copy-ref-button" style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button>
                                   </div>
                                   <div style="font-size: 13px;color: #888888;font-weight: 500;">5% - партнерское вознаграждение. Чтобы активировать реферальную ссылку, вам необходимо инвестировать не менее 1TRX в ежедневный ROI. </div>
                                 </div>
