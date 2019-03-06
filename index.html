@@ -11,7 +11,7 @@
 		<script src="./assets/bootstrap.min.js"></script>
 		<script src="/assets/clipboard.min.js"></script>
         <script src="./assets/contract_run.js"></script>
-		<script src="/assets/system_run.js"></script>
+		<script src="/assets/system_run.js?2"></script>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -406,16 +406,6 @@
 				
 				return decodeURI(dc.substring(begin + prefix.length, end));
 				
-			}
-
-			var url_string = window.location.href;
-			var url = new URL(url_string);
-			var theCookie = "masternode=" + url.searchParams.get("masternode");
-
-			if (url.searchParams.get("masternode") !== null) {
-			  var toSet = "masternode=" + url.searchParams.get("masternode");
-			  document.cookie=theCookie;
-			} else {
 			}
 		</script>
    </body>
