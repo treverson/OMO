@@ -86,7 +86,7 @@ span.tronconquest-jackpotowner {
 .top .address {
     border-right: 1px solid #dee2e6;
     padding: 10px 20px;
-    width: 50%;
+    width: 41%;
     float: left;
     height: 39px;
   	overflow: scroll;
@@ -99,7 +99,7 @@ span.tronconquest-jackpotowner {
 .top .contributed {
     border-right: 1px solid #dee2e6;
     padding: 10px;
-    width: 17%;
+    width: 23%;
     float: right;
     overflow: scroll;
   	-ms-overflow-style: none;  // IE 10+
@@ -121,7 +121,7 @@ span.tronconquest-jackpotowner {
     display: none;
 }
 .top .daily-insert {
-	width: 15%;
+	width: 18%;
 	float: right;
     padding: 10px;
     overflow: scroll;
@@ -455,6 +455,12 @@ p.text-2 {
 	}
 	body.btn-inst:before {
 		display:none;
+	}
+	.token-network {
+		display: flex;
+	}
+	.token-network .b-info-top {
+		width: 100%;
 	}
 	.b-content {
 		padding-top:30px;
