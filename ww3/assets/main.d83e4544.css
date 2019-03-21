@@ -462,6 +462,9 @@ p.text-2 {
 	.token-network .b-info-top {
 		width: 100%;
 	}
+	ul.nav-tabs li a {
+	    padding: 2px 18px;
+	}
 	.b-content {
 		padding-top:30px;
 		background: #000;
