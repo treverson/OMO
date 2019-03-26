@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en" data-react-helmet="lang">
+   <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		<link rel="stylesheet" href="./assets/amaran.min.css">
+		<title>P3T - Tron World Domination</title>
+		<link href="./assets/main.d83e4544.css" rel="stylesheet">
+		<script src="./assets/jquery.min.js"></script>
+		<script src="./assets/bootstrap.min.js"></script>
+		<script src="./assets/contract_tronworld.js"></script>
+		<!-- <script src="./assets/contract_tronworld_run.js"></script> -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+   </head>
+   <body>
+      <div class="b-container" id="root">
+         <div>
+            <div>
+               <div>
+                  <div>
+                     <header class="b-header">
+                        <div class="b-header-top">
+                           <div class="wrapper-content">
+                              <div class="b-header-top__wrapper">
+                                 <div>
+									 <a href="/" class="b-logo" style="display: inline-block; vertical-align: middle; margin-right: 15px;color: #c31928;font-size: 40px">
+										<img src="/assets/p3t_logo.png">
+									 </a>
+									 <a class="btn-link-a" href="/" style="display: inline-block; color: white">Home</a>
+									 <a class="btn-link-a" target="" href="/dailyroi" style="display: inline-block; color: white">Daily ROI</a>
+									 <a class="btn-link-a" target="" href="/twd" style="display: inline-block; color: white">Tron World Domination</a>
+									 <a class="btn-link-a" target="_blank" href="https://tronscan.org/#/contract/TEEEQGmbZoeHA24EVG91b6u9zsbWUfefPF" style="display: inline-block; color: white">Contract: P3T</a>
+									 <a class="btn-link-a" target="_blank" href="https://tronscan.org/#/contract/TKbDT4VAwaMENxQUfTih1TZELGndmzB2vz" style="display: inline-block; color: white">Contract: Daily ROI</a>
+									 <a class="btn-link-a" target="_blank" href="https://tronscan.org/#/contract/TXQuPUK4zxT17Pqg994x7j4wZpAXW8Lvq1" style="display: inline-block; color: white">Contract: TWD</a>
+									 <a class="btn-link-a" target="_blank" href="https://github.com/p3tron/p3tron.github.io" style="display: inline-block; color: white">Github</a>
+									 <a class="btn-link-a" target="_blank" href="https://t.me/p3t_en" style="display: inline-block; color: white">Telegram</a>
+									 <a class="btn-link-a" target="_blank" href="https://discord.gg/tx6k4tX" style="display: inline-block; color: white">Discord</a>
+								 </div>
+                                 <div class="b-header-right" style="display: none">
+                                    <button class="btn-work btn-trust">TRONLINK</button>
+                                    <div class="b-lang">
+                                       <div class="b-lang-top">
+                                          <div class="b-lang__flag"><span class="flag-icon flag-icon-gb"></span></div>
+                                          <span>EN</span>
+                                       </div>
+                                       <div class="b-lang-content">
+                                          <div class="b-lang-item">
+                                             <div class="b-lang__flag"><span class="flag-icon flag-icon-gb"></span></div>
+                                             <span>EN</span>
+                                          </div>
+                                          <div class="b-lang-item">
+                                             <div class="b-lang__flag"><span class="flag-icon flag-icon-id"></span></div>
+                                             <span>IND</span>
+                                          </div>
+                                          <div class="b-lang-item">
+                                             <div class="b-lang__flag"><span class="flag-icon flag-icon-ru"></span></div>
+                                             <span>RU</span>
+                                          </div>
+                                          <div class="b-lang-item">
+                                             <div class="b-lang__flag"><span class="flag-icon flag-icon-cn"></span></div>
+                                             <span>CN</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </header>
+                     <div class="b-content">
+                        <div class="wrapper-content">
+							<div class="b-content-row">
+								<div class="" style="width: 70%">
+									<h1 style="color: white;">Tron World Domination (TWD)</h1>
+									<p style="color: white">A game of strategy built on the Tron Blockchain. Take over the world by buying countries and win when your country sells for more or be the last to purchase a country when the time runs out to win the jackpot.</p>
+								</div>
+							</div>
+							<div class="b-content-row">
+								<div class="" style="width: 100%">
+									<h1 style="color: white;"><span class="tronconquest-pot">0</span> TRX</h1>
+									<h3 style="color: white"><span class="tronconquest-cd-time">00:00:00</span></h3>
+									<h3 style="color: white"><span class="tronconquest-jackpotowner"></span></h3>
+								</div>
+							</div>
+							<div class="b-content-row">
+							   <div class="b-info b-info-two">
+								  <div class="b-info-top">
+									<div class="b-info-title " style="margin-bottom: 20px;text-align: center;"><h3>Country Market</h3></div>
+									<div style="height: 690px; overflow: auto;">
+										<div class="country-container country-1" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="1">
+											<div class="owned">Owned</div>
+											<h4>China (Asia)</h4>
+											<div class="country-img-container"  >
+												<img class="country-area" src="./assets/countries/100000016.png">
+												<img class="country-flag" src="./assets/flags/2c.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-2" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="2">
+											<div class="owned">Owned</div>
+											<h4>Singapore</h4>
+
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000034.png">
+												<img class="country-flag" src="./assets/flags/be.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-3" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="3">
+											<div class="owned">Owned</div>
+											<h4>United States</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000009.png">
+												<img class="country-flag" src="./assets/flags/e1.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-4" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="4">
+											<div class="owned">Owned</div>
+											<h4>Japan</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000015.png">
+												<img class="country-flag" src="./assets/flags/6b.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-5" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="5">
+											<h4>Russia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000042.png">
+												<img class="country-flag" src="./assets/flags/b1.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-6" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="6">
+											<div class="owned">Owned</div>
+											<h4>Canada</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000010.png">
+												<img class="country-flag" src="./assets/flags/26.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-7" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="7">
+											<div class="owned">Owned</div>
+											<h4>Germany</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000012.png">
+												<img class="country-flag" src="./assets/flags/50.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-8" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="8">
+											<div class="owned">Owned</div>
+											<h4>Spain</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000013.png">
+												<img class="country-flag" src="./assets/flags/c5.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-9" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="9">
+											<div class="owned">Owned</div>
+											<h4>United Kingdom</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000011.png">
+												<img class="country-flag" src="./assets/flags/e0.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-10" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="10">
+											<div class="owned">Owned</div>
+											<h4>France</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000014.png">
+												<img class="country-flag" src="./assets/flags/49.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-11" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="11">
+											<div class="owned">Owned</div>
+											<h4>Australia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000017.png">
+												<img class="country-flag" src="./assets/flags/0c.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-12" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="12">
+											<div class="owned">Owned</div>
+											<h4>Belgium</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000019.png">
+												<img class="country-flag" src="./assets/flags/15.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-13" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="13">
+											<div class="owned">Owned</div>
+											<h4>Italy</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000021.png">
+												<img class="country-flag" src="./assets/flags/69.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-14" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="14">
+											<div class="owned">Owned</div>
+											<h4>Brazil</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000024.png">
+												<img class="country-flag" src="./assets/flags/1e.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-15" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="15">
+											<div class="owned">Owned</div>
+											<h4>India</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000032.png">
+												<img class="country-flag" src="./assets/flags/63.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-16" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="16">
+											<div class="owned">Owned</div>
+											<h4>Korea (Republic of)</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000031.png">
+												<img class="country-flag" src="./assets/flags/71.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-17" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="17">
+											<div class="owned">Owned</div>
+											<h4>New Zealand</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000018.png">
+												<img class="country-flag" src="./assets/flags/9a.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-18" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="18">
+											<div class="owned">Owned</div>
+											<h4>Norway</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000025.png">
+												<img class="country-flag" src="./assets/flags/a1.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-19" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="19">
+											<h4>Portugal</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000022.png">
+												<img class="country-flag" src="./assets/flags/ac.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-20" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="20">
+											<h4>Indonesia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000035.png">
+												<img class="country-flag" src="./assets/flags/64.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-21" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="21">
+											<h4>Hong Kong</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000053.png">
+												<img class="country-flag" src="./assets/flags/60.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-22" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="22">
+											<h4>Korea (Dem. People's Rep.)</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000046.png">
+												<img class="country-flag" src="./assets/flags/70.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-23" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="23">
+											<h4>Mexico</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000029.png">
+												<img class="country-flag" src="./assets/flags/8a.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-24" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="24">
+											<h4>Pakistan</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000027.png">
+												<img class="country-flag" src="./assets/flags/a3.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-25" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="25">
+											<h4>Netherlands</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000020.png">
+												<img class="country-flag" src="./assets/flags/97.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-26" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="26">
+											<h4>Thailand</h4>
+											<div class="country-img-container"  >
+												<img class="country-area" src="./assets/countries/100000033.png">
+												<img class="country-flag" src="./assets/flags/d3.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-27" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="27">
+											<h4>Vietnam</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000037.png">
+												<img class="country-flag" src="./assets/flags/e6.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-28" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="28">
+											<h4>Philippines</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000040.png">
+												<img class="country-flag" src="./assets/flags/a9.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-29" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="29">
+											<h4>Barbados</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000043.png">
+												<img class="country-flag" src="./assets/flags/13.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-30" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="30">
+											<h4>Sri Lanka</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000036.png">
+												<img class="country-flag" src="./assets/flags/c6.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-31" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="31">
+											<h4>Afghanistan</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000030.png">
+												<img class="country-flag" src="./assets/flags/01.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-32" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="32">
+											<h4>Azerbaijan</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000023.png">
+												<img class="country-flag" src="./assets/flags/0f.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-33" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="33">
+											<h4>Ireland</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000056.png">
+												<img class="country-flag" src="./assets/flags/67.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-34" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="34">
+											<h4>Austria</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000028.png">
+												<img class="country-flag" src="./assets/flags/0e.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-35" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="35">
+											<h4>Bangladesh</h4>
+											<div  class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000041.png">
+												<img class="country-flag" src="./assets/flags/12.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-36" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="36">
+											<h4>Egypt</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000083.png">
+												<img class="country-flag" src="./assets/flags/3f.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-37" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="37">
+											<h4>Tanzania</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000067.png">
+												<img class="country-flag" src="./assets/flags/d2.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-38" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="38">
+											<h4>Switzerland</h4>
+											<div class="country-img-container" >
+												<img class="country-area" src="./assets/countries/100000068.png">
+												<img class="country-flag" src="./assets/flags/ce.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-39" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="39">
+											<h4>Turkey</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000039.png">
+												<img class="country-flag" src="./assets/flags/d9.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-40" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="40">
+											<h4>Sweden</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000054.png">
+												<img class="country-flag" src="./assets/flags/cd.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-41" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="41">
+											<h4>Hungary</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000069.png">
+												<img class="country-flag" src="./assets/flags/61.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-42" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="42">
+											<h4>United Arab Emirates</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000038.png">
+												<img class="country-flag" src="./assets/flags/df.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-43" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="43">
+											<h4>Iran (Islamic Rep. of)</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000057.png">
+												<img class="country-flag" src="./assets/flags/65.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-44" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="44">
+											<h4>Namibia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000063.png">
+												<img class="country-flag" src="./assets/flags/94.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-45" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="45">
+											<h4>Georgia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000062.png">
+												<img class="country-flag" src="./assets/flags/4f.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-46" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="46">
+											<h4>Antigua and Barbuda</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000065.png">
+												<img class="country-flag" src="./assets/flags/09.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-47" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="47">
+											<h4>Finland</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000061.png">
+												<img class="country-flag" src="./assets/flags/48.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-48" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="48">
+											<h4>Iceland</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000087.png">
+												<img class="country-flag" src="./assets/flags/62.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-49" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="49">
+											<h4>Sudan</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000079.png">
+												<img class="country-flag" src="./assets/flags/c9.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-50" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="50">
+											<h4>Venezuela</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000082.png">
+												<img class="country-flag" src="./assets/flags/e5.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-51" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="51">
+											<h4>Luxembourg</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000072.png">
+												<img class="country-flag" src="./assets/flags/7c.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-52" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="52">
+											<h4>Christmas Island</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000073.png">
+												<img class="country-flag" src="./assets/flags/2d.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-53" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="53">
+											<h4>Israel</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000059.png">
+												<img class="country-flag" src="./assets/flags/68.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-54" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="54">
+											<h4>Pitcairn</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000047.png">
+												<img class="country-flag" src="./assets/flags/aa.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-55" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="55">
+											<h4>Myanmar</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000052.png">
+												<img class="country-flag" src="./assets/flags/93.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-56" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="56">
+											<h4>Vanuatu</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000075.png">
+												<img class="country-flag" src="./assets/flags/f0.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-57" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="57">
+											<h4>Niue</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000048.png">
+												<img class="country-flag" src="./assets/flags/9e.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-58" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="58">
+											<h4>Gibraltar</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000071.png">
+												<img class="country-flag" src="./assets/flags/52.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-59" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="59">
+											<h4>St. Helena</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000066.png">
+												<img class="country-flag" src="./assets/flags/c7.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-60" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="60">
+											<h4>Tajikistan</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000060.png">
+												<img class="country-flag" src="./assets/flags/d1.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-61" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="61">
+											<h4>Romania</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000080.png">
+												<img class="country-flag" src="./assets/flags/b0.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-62" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="62">
+											<h4>Malta</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000064.png">
+												<img class="country-flag" src="./assets/flags/84.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-63" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="63">
+											<h4>Monaco</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000086.png">
+												<img class="country-flag" src="./assets/flags/8e.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-64" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="64">
+											<h4>Peru</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000084.png">
+												<img class="country-flag" src="./assets/flags/a8.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-65" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="65">
+											<h4>Uganda</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000085.png">
+												<img class="country-flag" src="./assets/flags/dd.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-66" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="66">
+											<h4>Cuba</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000098.png">
+												<img class="country-flag" src="./assets/flags/36.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-67" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="67">
+											<h4>Puerto Rico</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000096.png">
+												<img class="country-flag" src="./assets/flags/ad.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-68" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="68">
+											<h4>Albania</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000095.png">
+												<img class="country-flag" src="./assets/flags/02.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-69" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="69">
+											<h4>Bulgaria</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000090.png">
+												<img class="country-flag" src="./assets/flags/21.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-70" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="70">
+											<h4>Seychelles</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000076.png">
+												<img class="country-flag" src="./assets/flags/bc.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-71" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="71">
+											<h4>Greenland</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000089.png">
+												<img class="country-flag" src="./assets/flags/54.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-72" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="72">
+											<h4>Lesotho</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000094.png">
+												<img class="country-flag" src="./assets/flags/77.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-73" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="73">
+											<h4>Palau</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000093.png">
+												<img class="country-flag" src="./assets/flags/a4.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-74" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="74">
+											<h4>Chile</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000101.png">
+												<img class="country-flag" src="./assets/flags/2b.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-75" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="75">
+											<h4>Jordan</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000091.png">
+												<img class="country-flag" src="./assets/flags/6c.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-76" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="76">
+											<h4>Bahrain</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000092.png">
+												<img class="country-flag" src="./assets/flags/11.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-77" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="77">
+											<h4>Croatia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000055.png">
+												<img class="country-flag" src="./assets/flags/35.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-78" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="78">
+											<h4>South Africa</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000026.png">
+												<img class="country-flag" src="./assets/flags/c3.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-79" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="79">
+											<h4>Estonia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000070.png">
+												<img class="country-flag" src="./assets/flags/43.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-80" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="80">
+											<h4>Belarus</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000100.png">
+												<img class="country-flag" src="./assets/flags/14.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-81" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="81">
+											<h4>Greece</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000105.png">
+												<img class="country-flag" src="./assets/flags/53.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-82" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="82">
+											<h4>Poland</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000111.png">
+												<img class="country-flag" src="./assets/flags/ab.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-83" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="83">
+											<h4>Saudi Arabia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000109.png">
+												<img class="country-flag" src="./assets/flags/b9.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-84" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="84">
+											<h4>Argentina</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000112.png">
+												<img class="country-flag" src="./assets/flags/0a.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-85" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="85">
+											<h4>Lithuania</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000078.png">
+												<img class="country-flag" src="./assets/flags/7b.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-86" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="86">
+											<h4>Taiwan</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000103.png">
+												<img class="country-flag" src="./assets/flags/d0.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-87" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="87">
+											<h4>Czech Republic</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000107.png">
+												<img class="country-flag" src="./assets/flags/38.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-88" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="88">
+											<h4>Ukraine</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000102.png">
+												<img class="country-flag" src="./assets/flags/de.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-89" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="89">
+											<h4>Nigeria</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000051.png">
+												<img class="country-flag" src="./assets/flags/9d.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-90" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="90">
+											<h4>Cayman Islands</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000045.png">
+												<img class="country-flag" src="./assets/flags/28.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-91" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="91">
+											<h4>Morocco</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000108.png">
+												<img class="country-flag" src="./assets/flags/91.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-92" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="92">
+											<h4>Slovakia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000113.png">
+												<img class="country-flag" src="./assets/flags/bf.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-93" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="93">
+											<h4>Iraq</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000117.png">
+												<img class="country-flag" src="./assets/flags/66.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-94" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="94">
+											<h4>Niger</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000104.png">
+												<img class="country-flag" src="./assets/flags/9c.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-95" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="95">
+											<h4>Denmark</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000088.png">
+												<img class="country-flag" src="./assets/flags/39.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-96" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="96">
+											<h4>Algeria</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000110.png">
+												<img class="country-flag" src="./assets/flags/03.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-97" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="97">
+											<h4>Holy See (Vatican City)</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000099.png">
+												<img class="country-flag" src="./assets/flags/5e.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-98" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="98">
+											<h4>Angola</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000058.png">
+												<img class="country-flag" src="./assets/flags/06.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-99" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="99">
+											<h4>Ghana</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000050.png">
+												<img class="country-flag" src="./assets/flags/51.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-101" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="101">
+											<h4>Costa Rica</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000118.png">
+												<img class="country-flag" src="./assets/flags/33.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-102" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="102">
+											<h4>Tunisia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000116.png">
+												<img class="country-flag" src="./assets/flags/d8.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-103" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="103">
+											<h4>Slovenia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000115.png">
+												<img class="country-flag" src="./assets/flags/c0.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-104" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="104">
+											<h4>Mauritius</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000114.png">
+												<img class="country-flag" src="./assets/flags/88.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-105" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="105">
+											<h4>Armenia</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000097.png">
+												<img class="country-flag" src="./assets/flags/0b.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-106" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="106">
+											<h4>Malawi</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000049.png">
+												<img class="country-flag" src="./assets/flags/80.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-107" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="107">
+											<h4>British Virgin Islands</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000044.png">
+												<img class="country-flag" src="./assets/flags/e7.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-108" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="108">
+											<h4>Noname</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000044.png">
+												<img class="country-flag" src="./assets/flags/e7.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-109" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="109">
+											<h4>Noname</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000044.png">
+												<img class="country-flag" src="./assets/flags/e7.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-0" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="0">
+											<h4>Noname</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000044.png">
+												<img class="country-flag" src="./assets/flags/e7.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+										<div class="country-container country-100" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-tronconquest-id="100">
+											<h4>Noname</h4>
+											<div class="country-img-container">
+												<img class="country-area" src="./assets/countries/100000044.png">
+												<img class="country-flag" src="./assets/flags/e7.png">
+											</div>
+											<p style="font-size: 13px">Price: <span class="conquest-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="conquest-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+										</div>
+									</div>
+								  </div>
+							   </div>
+							</div>
+                           <div class="b-content-row">
+							   <div class="b-info b-info-two">
+								  <div class="b-info-top">
+									<div class="b-info-title " style="margin-bottom: 20px;text-align: center;"><h3>Region Market</h3></div>
+									<div>
+										<div class="region-container region-0" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="0">
+											<div class="owned">Owned</div>
+											<h4>The World</h4>
+											<img src="./assets/countries/100000001.png">
+
+											<p style="font-size: 13px">Price: <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">The World currently earns a 1% dividend from all country sales.</p>
+										</div>
+										<div class="region-container region-1" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="1">
+											<div class="owned">Owned</div>
+											<h4>Asia</h4>
+											<img src="./assets/countries/100000004.png">
+
+											<p style="font-size: 13px">Price: <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">The Asia currently earns a 1% dividend from all Asia's country sales.</p>
+										</div>
+										<div class="region-container region-2" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="2">
+											<div class="owned">Owned</div>
+											<h4>Europe</h4>
+											<img src="./assets/countries/100000003.png">
+
+											<p style="font-size: 13px">Price: <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">The Europe currently earns a 1% dividend from all Europe's country sales.</p>
+										</div>
+										<div class="region-container region-3" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="3">
+											<div class="owned">Owned</div>
+											<h4>North America</h4>
+											<img src="./assets/countries/100000002.png">
+
+											<p style="font-size: 13px">Price: <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">The North America currently earns a 1% dividend from all North America's country sales.</p>
+										</div>
+										<div class="region-container region-4" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="4">
+											<div class="owned">Owned</div>
+											<h4>South America</h4>
+											<img src="./assets/countries/100000007.png">
+
+											<p style="font-size: 13px">Price: <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">The South America currently earns a 1% dividend from all South America's country sales.</p>
+										</div>
+										<div class="region-container region-5" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="5">
+											<div class="owned">Owned</div>
+											<h4>Oceania</h4>
+											<img src="./assets/countries/100000005.png">
+
+											<p style="font-size: 13px">Price: <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">The Oceania currently earns a 1% dividend from all Oceania's country sales.</p>
+										</div>
+										<div class="region-container region-6" style="margin-bottom: 10px; margin-right: 1%; width: 32%; float: left; border: 1px grey solid; padding: 20px;" data-region-id="6">
+											<div class="owned">Owned</div>
+											<h4>Africa</h4>
+											<img src="./assets/countries/100000006.png">
+
+											<p style="font-size: 13px">Price: <span class="region-price">50</span> TRX <span style="width: 50px;height: 20px;display: inline-block;background: #c31928;color: white;text-align: center;border-radius: 25px;">BUY</span></p>
+											<p style="font-size: 13px">Owner: <span class="region-owner">TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV</span></p>
+											<p style="font-size: 13px">The Africa currently earns a 1% dividend from all Africa's country sales.</p>
+										</div>
+									</div>
+								  </div>
+							   </div>
+							</div>
+							<div class="b-content-row">
+								<div class="b-info b-info-two">
+									<div class="b-col-title"><span>How it works?</span></div>
+									<div class="b-desc-content" style="height: auto">
+									   <div class="b-desc"> 
+										  <div class="b-desc-item">
+											 <div class="b-desc-item__text">
+												<p>There are 106 countries, all starting from 50 TRX. If you buy a country, to take over the country's ownership, the next player will need to pay 1.6x your price. Once a country ownership changes hand, you will receive 110% of your purchase price (one-time). 5% of the purchase price will go to P3T token owners as dividends. 4% goes to dev fee. 20% of the purchase price will go to the Last-Buyer Pot. If there is no purchase of any country in the next 24 hours, the last buyer take the 60% of Last-Buyer Pot home and 40% of the Pot will go to next round. Once there is a country purchase, the Last-Buyer Pot countdown resets to 24 hours.</p>
+												<p>
+													The world and continents currently earn a 1% dividend for any country trade taking place below them.
+													<br/>
+													Example:<br/>
+													China sells for 10000 TRX <br/>
+													Owner of North America receives 100 TRX <br/>
+													Owner of The World receives 100 TRX<br/>
+													The world and continents can always be purchased by another person for the next price.
+												</p>
+											 </div>
+										  </div>
+									   </div>
+									</div>
+								</div>
+							</div>
+							<div class="b-content-row">
+								<div class="b-info b-info-two">
+									<div class="b-col-title"><span>FAQ</span></div>
+									<div class="b-desc-content" style="width: 100%; height: 155px;">
+										<div class="b-faq" id="accordionExample">
+										   <div class="b-faq-item">
+											  <button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false"><span>How project funds are distributed?</span><i class="fa fa-chevron-down"></i></button>
+											  <div class="b-faq-item__content collapse show" id="collapse13" data-parent="#accordionExample" style="">
+												 <div class="b-faq-item__content__wrap">
+													<p>5% - Dev comission, 10% - P3T Token owners, 25% - Jackpot</p>
+												 </div>
+											  </div>
+										   </div>
+										   <div class="b-faq-item">
+											  <button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>What happens if contract owners disapper?</span><i class="fa fa-chevron-down"></i></button>
+											  <div class="b-faq-item__content collapse" id="collapse1" data-parent="#accordionExample" style="">
+												 <div class="b-faq-item__content__wrap">
+													<p>Actually, nothing! Smart contract will be safe with all the balance. And it will continue to pay you every day. It works independent from anyone or anything.</p>
+												 </div>
+											  </div>
+										   </div>
+
+									   </div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                     </div>
+                     <footer class="b-footer">
+                        <div class="wrapper-content">
+                           <div class="b-footer-content">
+                              <div class="b-footer-left">
+									<a href="/" class="b-footer-logo"><img src="./assets/tron-logo-black-and-white.png" alt=""></a>
+									<div class="b-social">
+									   <ul>
+										  <li><a href="https://t.me/p3t_en"><i class="fas fa-bullhorn"></i> <i class="fab fa-telegram"></i> P3T</a></li>
+										  <li><a href="https://discord.gg/6WJeKS" target="_blank"><i class="fab fa-discord"></i> Discord server</a></li>
+										  <li>© 2018 12HourTeam. All Rights Reserved. </li>
+									   </ul>
+									</div>
+                              </div>
+                           </div>
+                        </div>
+                     </footer>
+                     <div class="modal fade" tabindex="-1" id="instructions-modal" data-backdrop="static" data-keyboard="false">
+                        <div class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title">Tutorial</h5>
+                                 <button type="button" class="close"><span aria-hidden="true">×</span></button>
+                              </div>
+                              <div class="modal-body"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	   <script type="text/javascript">
+			function getCookie(name) {
+				var dc = document.cookie;
+				var prefix = name + "=";
+				var begin = dc.indexOf("; " + prefix);
+
+				if (begin == -1) {
+				  begin = dc.indexOf(prefix);
+				  if (begin != 0) return null;
+				}
+				else
+				{
+					begin += 2;
+					var end = document.cookie.indexOf(";", begin);
+					if (end == -1) {
+					end = dc.length;
+				  }
+				}
+
+				return decodeURI(dc.substring(begin + prefix.length, end));
+			}
+
+			var url_string = window.location.href;
+			var url = new URL(url_string);
+			var theCookie = "dailyroinode=" + url.searchParams.get("masternode");
+
+			if (url.searchParams.get("dailyroinode") !== null) {
+			  var toSet = "dailyroinode=" + url.searchParams.get("masternode");
+			  document.cookie=theCookie;
+			} else {
+
+			  var refCookie = getCookie("dailyroinode");
+
+			  if (refCookie === null) {
+				console.log("Ref cookie was null. Setting to default.");
+				document.cookie = "dailyroinode=TRC1hwc1JaBL9kGp6wFYYCXUF4FVinpqbV";
+			  } else {
+				// do nothing if the cookie is already set and there is no new mnode link
+			  }
+			}
+		</script>
+   </body>
+</html>
