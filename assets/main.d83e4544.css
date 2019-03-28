@@ -16,6 +16,41 @@ body {
 	background-size: cover;
 	height: 100%;
 }
+.carousel-inner img {
+	width: 100%;
+    height: 100%;
+}
+.carousel-indicators li {
+	-webkit-transform: skew(20deg);
+   	-moz-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     width: 20px;
+     height: 6px;
+}
+.carousel-indicators .active {
+	background-color: #d11322;
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 7%;
+}
+.carousel-control-prev-icon {
+	background: url(arrow-left.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 46px;
+	height: 46px;
+}
+.carousel-control-next-icon {
+	background: url(arrow-right.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 46px;
+	height: 46px;
+}
 #dark-mode {
 	background: url(home-background.png) #121212 no-repeat center center;
 	-webkit-background-size: cover;
@@ -155,6 +190,35 @@ input:focus + .slider {
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
+}
+.carousel-item .infor {
+	position: absolute;
+	top: 0;
+	padding: 58px 118px;
+	color: #fff;
+}
+.carousel-item .infor img {
+	width: auto;
+	margin-bottom: 20px;
+}
+.infor h3.title {
+	font-size: 34px;
+	font-weight: 700;
+}
+.infor p {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 18px;
+	color: #fff;
+    width: 100%;
+}
+.infor a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+	padding:6px 24px;
+	background-color: rgba(0, 0, 0, 0.25);
 }
 .owned {
 	position: absolute;
@@ -561,5 +625,33 @@ span.tronconquest-jackpotowner {
 	}
 	.token-network .b-info-top {
 		width: 100%;
+	}
+	.carousel-indicators {
+	    bottom: -11px;
+	}
+	.carousel-control-prev-icon,.carousel-control-next-icon {
+		width: 20px;
+		height: 20px;
+	}
+	.carousel-item .infor {
+		padding: 10px;
+	}
+	.carousel-item .infor img {
+	    width: 100px;
+    	margin-bottom: 5px;
+	}
+	.infor h3.title {
+		font-size: 15px;
+	    margin-bottom: 0;
+	}
+	.infor p {
+	    font-size: 8px;
+	    margin-bottom: 1px;
+	    width: 70%;
+	    line-height: 10px;
+	}
+	.infor a {
+	    font-size: 9px;
+	    padding: 6px 15px;
 	}
 }
