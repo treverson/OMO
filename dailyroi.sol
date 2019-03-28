@@ -1,6 +1,6 @@
 pragma solidity ^0.4.0;
 
-contract P3TInterface {
+contract OMOInterface {
      function buy(address _referredBy) external payable returns (uint256);
      function exit() external;
 }
@@ -14,13 +14,13 @@ contract DailyROI {
     mapping(address => uint256) withdrawals;
     mapping(address => uint256) referrer;
 
-    uint256 public step = 3;
+    uint256 public step = 2;
     uint256 public minimum = 1 trx;
     uint256 public stakingRequirement = 1 trx;
     address public ownerWallet;
     address public owner;
 
-	P3TInterface public P3TToken; 
+	OMOInterface public OMOToken; 
 
     event Invest(address investor, uint256 amount);
     event Withdraw(address investor, uint256 amount);
@@ -64,29 +64,29 @@ contract DailyROI {
         
     }
 
-	function setP3TInterface(address _p3tcontract) public onlyOwner {
-		P3TToken = P3TInterface(_p3tcontract);  
+	function setOMOInterface(address _OMOcontract) public onlyOwner {
+		OMOToken = OMOInterface(_OMOcontract);  
 	}
 
-	function sendProfitToP3T(uint256 _profit) private
+	function sendProfitToOMO(uint256 _profit) private
     {
-        buyP3T(calTrxSendToP3T(_profit));
+        buyOMO(calTrxSendToOMO(_profit));
         
     }
 
-    function calTrxSendToP3T(uint256 _trx) private pure returns(uint256 _value)
+    function calTrxSendToOMO(uint256 _trx) private pure returns(uint256 _value)
     {
       _value = SafeMath.div(SafeMath.mul(_trx, 100), 13);
     }
 
-    function buyP3T(uint256 _value) private
+    function buyOMO(uint256 _value) private
     {
-      P3TToken.buy.value(_value)(owner);
-	  exitP3T();
+      OMOToken.buy.value(_value)(owner);
+	  exitOMO();
     }
-    function exitP3T() private
+    function exitOMO() private
     {
-      P3TToken.exit();
+      OMOToken.exit();
     }
 
     function buy(address _referredBy) public payable {
@@ -117,7 +117,7 @@ contract DailyROI {
        investments[msg.sender] = investments[msg.sender].add(msg.value);
        joined[msg.sender] = block.timestamp;
        ownerWallet.transfer(msg.value.mul(5).div(100));
-	   sendProfitToP3T(msg.value.mul(10).div(100));
+	   sendProfitToOMO(msg.value.mul(10).div(100));
        emit Invest(msg.sender, msg.value);
     }
 
