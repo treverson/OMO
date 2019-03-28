@@ -1,14 +1,14 @@
 pragma solidity ^0.4.0;
 
 /*
-* [✓] 4% Withdraw fee
-* [✓] 10% Deposit fee
-* [✓] 1% Token transfer
-* [✓] 33% Ref link
+* [✓] 5% Withdraw fee 4
+* [✓] 15% Deposit fee 10
+* [✓] 1% Token transfer 1
+* [✓] 35% Ref link 33
 *
 */
 
-contract P3T {
+contract OMOFOMO {
 
     modifier onlyBagholders {
         require(myTokens() > 0);
@@ -54,13 +54,14 @@ contract P3T {
         uint256 tokens
 	);
 
-    string public name = "p3t";
-    string public symbol = "p3t";
+    // Contract Variable Settings
+    string public name = "OMOFOMO";
+    string public symbol = "OMO";
     uint8 constant public decimals = 18;
-    uint8 constant internal entryFee_ = 10;
+    uint8 constant internal entryFee_ = 15;
     uint8 constant internal transferFee_ = 1;
-    uint8 constant internal exitFee_ = 4;
-    uint8 constant internal refferalFee_ = 33;
+    uint8 constant internal exitFee_ = 5;
+    uint8 constant internal refferalFee_ = 35;
     uint256 constant internal tokenPriceInitial_ = 10000;
     uint256 constant internal tokenPriceIncremental_ = 100;
     uint256 constant internal magnitude = 2 ** 64;
@@ -306,7 +307,6 @@ contract P3T {
             z = (x / z + z) / 2;
         }
     }
-
 
 }
 
